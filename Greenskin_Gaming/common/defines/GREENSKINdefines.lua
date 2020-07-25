@@ -1,4 +1,1 @@
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
-
-NDefines.NCountry.PS_IMPROVE_PROVINCE_BASE = 40
-NDefines.NCountry.PS_IMPROVE_PROVINCE_MUL = 15
