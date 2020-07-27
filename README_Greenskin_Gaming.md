@@ -12,3 +12,5 @@ Economic ideas bonus reduced to -10% dev cost reduction.
 
 Universities reduced to -10% dev cost reduction.
 
+Orthodox icon of pancreator dev cost reduction reduced to -5% from -10%.
+
