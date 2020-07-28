@@ -23,3 +23,5 @@ Days per combat phase reduced to 2 from 3.
 Cavalry damage in the shock phase increased by 25%.
 
 Encourage development edict has been removed.
+
+base cost of improving dev has been reduced to 45 from 50.
