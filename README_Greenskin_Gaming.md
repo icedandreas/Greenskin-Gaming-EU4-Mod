@@ -16,5 +16,8 @@ Orthodox icon of pancreator dev cost reduction reduced to -5% from -10%.
 
 Savannah terrain dev cost modifier changed to +10% from +15%.
 
-All instances of dev cost reduction in Ni's have been replaced with build cost reduction at a 1 to 1.5 ratio. (-10% dev cost -> -15% build cost)
+All instances of dev cost reduction in Ni's have been replaced with build cost reduction at a 1 to 1.5 ratio. (-10% dev cost -> -15% build cost).
 
+Days per combat phase reduced to 2 from 3.
+
+Cavalry damage in the shock phase increased by 25%.
