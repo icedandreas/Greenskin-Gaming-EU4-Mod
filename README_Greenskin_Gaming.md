@@ -26,3 +26,6 @@ Encourage development edict has been removed.
 
 base cost of improving dev has been reduced to 45 from 50.
 
+Added 1 additional possible policy of each type.
+
+Granted 1 additional free policy of each type.
