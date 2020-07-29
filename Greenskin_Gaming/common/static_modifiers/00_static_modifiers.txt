@@ -43,6 +43,10 @@ difficulty_easy_player = {
 }
 
 difficulty_normal_player = {
+	possible_policy = 1
+	free_adm_policy = 1
+	free_dip_policy = 1
+	free_mil_policy = 1
 }
 
 difficulty_hard_player = {
