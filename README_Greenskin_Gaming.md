@@ -14,7 +14,7 @@ Universities reduced to -10% dev cost reduction from -20% dev cost reduction.
 
 Orthodox icon of pancreator dev cost reduction reduced to -5% from -10%.
 
-Savannah terrain dev cost modifier changed to +10% from +15%.
+All terrain penalties to devving set to 0%.
 
 All instances of dev cost reduction in Ni's have been replaced with build cost reduction at a 1 to 1.5 ratio. (-10% dev cost -> -15% build cost).
 
@@ -29,3 +29,15 @@ base cost of improving dev has been reduced to 45 from 50.
 Added 1 additional possible policy of each type.
 
 Granted 1 additional free policy of each type.
+
+Cavalry movement speed increased by 50%.
+
+Gain 20% army drill for every 20% army professionalism instead of 100% army drill at 100% army professionalism.
+
+reworked some ideas.
+
+reworked policies and how policies work.
+
+Removed Cossack estate that gave -15% dev cost for steppes.
+
+Removed the eastern privilege "inward perfection" that gave -15% dev cost.
