@@ -7,7 +7,7 @@ increased_taxation = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -21,7 +21,7 @@ increased_taxation = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 1
 		}
@@ -63,7 +63,7 @@ foreign_ideas = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -77,7 +77,7 @@ foreign_ideas = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 1
 		}
@@ -96,7 +96,7 @@ cultural_enrichment = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -110,7 +110,7 @@ cultural_enrichment = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 1
 		}	
@@ -129,7 +129,7 @@ heretic_tolerance = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -143,7 +143,7 @@ heretic_tolerance = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 2
 		}
@@ -161,7 +161,7 @@ stability_act = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -175,7 +175,7 @@ stability_act = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 2
 		}
@@ -201,7 +201,7 @@ emperial_growth = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -215,7 +215,7 @@ emperial_growth = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 2
 		}
@@ -233,7 +233,7 @@ the_loan_act = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -247,7 +247,7 @@ the_loan_act = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 3
 		}
@@ -265,7 +265,7 @@ tower_of_babylon = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -279,7 +279,7 @@ tower_of_babylon = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 3
 		}
@@ -300,7 +300,7 @@ discounted_advisors = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -314,7 +314,7 @@ discounted_advisors = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 3
 		}
@@ -332,7 +332,7 @@ purge_the_heretics = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -346,7 +346,7 @@ purge_the_heretics = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 4
 		}
@@ -364,7 +364,7 @@ tolerate_heatern = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -378,7 +378,7 @@ tolerate_heatern = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 4
 		}
@@ -396,7 +396,7 @@ unity_of_religion = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -410,7 +410,7 @@ unity_of_religion = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 4
 		}
@@ -429,7 +429,7 @@ cling_to_glory = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -443,7 +443,7 @@ cling_to_glory = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 5
 		}
@@ -461,7 +461,7 @@ fabricate_glory = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -475,7 +475,7 @@ fabricate_glory = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 5
 		}
@@ -497,7 +497,7 @@ bulk_discount = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -511,7 +511,7 @@ bulk_discount = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 5
 		}
@@ -530,7 +530,7 @@ expanded_court = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -544,7 +544,7 @@ expanded_court = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 6
 		}
@@ -566,7 +566,7 @@ absolute_absolutism = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -580,7 +580,7 @@ absolute_absolutism = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 6
 		}
@@ -598,7 +598,7 @@ absolute_absolutism = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -612,7 +612,7 @@ absolute_absolutism = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 6
 		}
@@ -634,7 +634,7 @@ forced_unity = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -648,7 +648,7 @@ forced_unity = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 7
 		}
@@ -667,7 +667,7 @@ the_legit_act = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -681,7 +681,7 @@ the_legit_act = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 7
 		}
@@ -707,7 +707,7 @@ the_mint_act = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -721,7 +721,7 @@ the_mint_act = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 7
 		}
@@ -740,7 +740,7 @@ capacity_for_greatness = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -754,7 +754,7 @@ capacity_for_greatness = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 8
 		}
@@ -776,7 +776,7 @@ effective_administration = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -790,7 +790,7 @@ effective_administration = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 8
 		}
@@ -812,7 +812,7 @@ equality_for_all = {
 	
 	allow = {
 		calc_true_if = {
-		full_idea_group = knightly_ideas
+		full_idea_group = aristocracy_ideas
 		full_idea_group = plutocracy_ideas
 		full_idea_group = innovativeness_ideas
 		full_idea_group = religious_ideas
@@ -826,7 +826,7 @@ equality_for_all = {
 		full_idea_group = expansion_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = administrative_ideas
-		full_idea_group = isolationism_ideas
+		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 8
 		}

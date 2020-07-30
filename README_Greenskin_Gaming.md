@@ -41,3 +41,5 @@ reworked policies and how policies work.
 Removed Cossack estate that gave -15% dev cost for steppes.
 
 Removed the eastern privilege "inward perfection" that gave -15% dev cost.
+
+Removed cannons from mercs.

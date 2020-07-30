@@ -7,7 +7,7 @@
 # ROOT = country picking the idea
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
-knightly_ideas = {
+aristocracy_ideas = {
 	category = MIL
 
 	bonus = {
@@ -187,7 +187,7 @@ religious_ideas = {
 }
 
 
-isolationism_ideas = {
+spy_ideas = {
 	category = DIP
 
 	bonus = {
@@ -217,9 +217,8 @@ isolationism_ideas = {
 	state_subsidies = {
 		production_efficiency = 0.10
 	}
-	effecient_spies = {
-		global_spy_defence = 0.33
-		spy_offence = 0.33
+	taxation_of_imports = {
+		mercantilism_cost = -0.33
 	}
 
 	ai_will_do = {
@@ -250,7 +249,7 @@ offensive_ideas = {
 	forward_comrades = {
 		shock_damage = 0.1
 	}
-	BF_Guns = {
+	bf_guns = {
 		fire_damage = 0.1
 	}
 	napoleonic_warfare = {
@@ -324,7 +323,7 @@ trade_ideas = {
 	trade_manipulation = {
 		trade_steering = 0.25
 	}
-	national_trade_policy = {
+	national_trade_policy_2 = {
 		trade_efficiency = 0.1
 	}
 
@@ -593,7 +592,7 @@ maritime_ideas = {
 	boarding_party = {
 		leader_naval_shock = 1
 	}
-	press_gang = {
+	press_gangs = {
 		global_sailors_modifier = 0.50
 	}
 	finest_cannons = {
