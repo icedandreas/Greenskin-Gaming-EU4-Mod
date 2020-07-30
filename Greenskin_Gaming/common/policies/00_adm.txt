@@ -192,7 +192,7 @@ stability_act = {
 	}
 }
 
-emperial_growth = {
+imperial_growth = {
 	monarch_power = ADM
 
 	potential = {
@@ -388,7 +388,7 @@ tolerate_heatern = {
 }
 
 unity_of_religion = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		adm_tech = 14

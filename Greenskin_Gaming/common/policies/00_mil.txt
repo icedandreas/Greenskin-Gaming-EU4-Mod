@@ -318,7 +318,7 @@ payment_in_loot = {
 	}
 }
 
-payment_in_loot = {
+bunk_bed_barracks = {
 	monarch_power = MIL
 	
 	potential = {
