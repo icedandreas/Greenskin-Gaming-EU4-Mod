@@ -45,3 +45,5 @@ Removed the eastern privilege "inward perfection" that gave -15% dev cost.
 Removed cannons from mercs.
 
 Merc stack size is not capped at 40.
+
+Going bankrupt will now destroy all buildings made in the last 7 years, up from 5.
