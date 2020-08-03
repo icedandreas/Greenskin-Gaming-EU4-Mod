@@ -1700,7 +1700,9 @@ estate_cossacks_exploration_expedition = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
-	
+	is_valid = {
+		always = no
+	}
 	on_granted = {
 		custom_tooltip = estate_cossacks_exploration_expedition_effect_tooltip
 		hidden_effect = {
