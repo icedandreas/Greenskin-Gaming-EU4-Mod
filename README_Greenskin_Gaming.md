@@ -47,3 +47,11 @@ Removed cannons from mercs.
 Merc stack size is not capped at 40.
 
 Going bankrupt will now destroy all buildings made in the last 7 years, up from 5.
+
+Estate privilege prime herding rights has been removed.
+
+Prussian morale reduced to 10% from 20%
+
+Prussian government penalty to government capacity reduced to -25% from -50%.
+
+Militarized society no longer gives discipline.
