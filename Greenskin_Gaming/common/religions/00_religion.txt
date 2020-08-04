@@ -1116,7 +1116,7 @@ muslim = {
 		color = { 0 153 0 }
 		icon = 5
 		country = {
-			cav_to_inf_ratio = 0.10
+			cavalry_cost = -0.05
 			heir_chance = 1.0
 		}
 		country_as_secondary = {
@@ -1542,7 +1542,7 @@ pagan = {
 		icon = 27
 		color = { 25 76 217 }
 		country = {
-			cav_to_inf_ratio = 0.25
+			cavalry_cost = -0.125
 			global_regiment_cost = -0.2
 		}
 		can_have_secondary_religion = yes

@@ -1216,7 +1216,7 @@ steppe_horde_legacy = {
 		loot_amount = 0.50
 		global_institution_spread = -0.15
 		reinforce_cost_modifier = -0.5
-		cav_to_inf_ratio = 0.25
+		cavalry_cost = -0.125
 		movement_speed = 0.2
 	}
 	ai = {
@@ -1249,7 +1249,7 @@ great_mongol_state_legacy = {
 		land_forcelimit_modifier = 0.2
 		loot_amount = 0.50
 		reinforce_cost_modifier = -0.5
-		cav_to_inf_ratio = 0.25
+		cavalry_cost = -0.125
 		movement_speed = 0.2
 	}
 	conditional = {
@@ -1324,7 +1324,7 @@ tribal_federation_legacy = {
 	monarchy = yes
 	modifiers = {
 		years_of_nationalism = -5
-		cav_to_inf_ratio = 0.25
+		cavalry_cost = -0.125
 		province_warscore_cost = -0.10
 	}
 
@@ -2406,8 +2406,7 @@ cossacks_legacy_reform = {
 	modifiers = {
    		governing_capacity = 50
 		cavalry_power = 0.2
-		cavalry_cost = -0.2
-		cav_to_inf_ratio = 0.2
+		cavalry_cost = -0.3
 	}
 
 	conditional = {
