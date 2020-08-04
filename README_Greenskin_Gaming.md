@@ -55,3 +55,5 @@ Prussian morale reduced to 10% from 20%
 Prussian government penalty to government capacity reduced to -25% from -50%.
 
 Militarized society no longer gives discipline.
+
+Changed all instances of cavalry ratio to reduced cavalry cost at a factor of 0.5.
