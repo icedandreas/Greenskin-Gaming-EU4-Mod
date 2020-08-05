@@ -2406,7 +2406,7 @@ cossacks_legacy_reform = {
 	modifiers = {
    		governing_capacity = 50
 		cavalry_power = 0.2
-		cavalry_cost = -0.3
+		cavalry_cost = -0.2
 	}
 
 	conditional = {

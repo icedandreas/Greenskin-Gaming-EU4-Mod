@@ -1077,7 +1077,7 @@ cossacks_reform = {
 
 	modifiers = {
 		cavalry_power = 0.2
-		cavalry_cost = -0.3
+		cavalry_cost = -0.2
 		governing_capacity = 50
 		max_absolutism = -40
 	}
