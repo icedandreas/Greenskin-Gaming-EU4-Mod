@@ -13,6 +13,7 @@ aristocracy_ideas = {
 	bonus = {
 		leader_siege = 1
 		nobles_loyalty_modifier = 0.1
+		nomadic_tribes_loyalty_modifier = 0.1
 	}
 	
 	noble_knights = {

@@ -57,3 +57,13 @@ Prussian government penalty to government capacity reduced to -25% from -50%.
 Militarized society no longer gives discipline.
 
 Changed all instances of cavalry ratio to reduced cavalry cost at a factor of 0.5 (With the exception of Cossacks, they get nothing as they are already OP).
+
+The PAP tag can now also become revolutionary.
+
+Nomads now have the Clergy estate.
+
+Muslim Nomads now have the Dhimmi estate.
+
+Dhimmi now have the privilige for +1 dip power.
+
+Loyal Nomads estate now scales up to 20% cavalry combat ability.
