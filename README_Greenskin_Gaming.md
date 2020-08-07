@@ -67,3 +67,5 @@ Muslim Nomads now have the Dhimmi estate.
 Dhimmi now have the privilige for +1 dip power.
 
 Loyal Nomads estate now scales up to 20% cavalry combat ability.
+
+Nomads estate now have the privilege for +1 mil power.

@@ -77,6 +77,7 @@ estate_nomadic_tribes = {
 		estate_nomadic_tribes_guaranteed_leadgership_in_host
 		estate_nomadic_tribes_tribal_host
 		estate_nomadic_tribes_primacy_to_the_bannermen
+		estate_nobles_nobility_primacy
 	}
 
 	agendas = {
