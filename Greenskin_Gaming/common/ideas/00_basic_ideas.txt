@@ -45,7 +45,7 @@ aristocracy_ideas = {
 	ai_will_do = {
 		factor = 0.9
 		modifier = {
-			factor = 10
+			factor = 15
 			has_reform = steppe_horde
 		}		
 	}
@@ -285,7 +285,7 @@ defensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.54
+		factor = 1.50
 	}
 }
 
@@ -320,14 +320,14 @@ trade_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.45
+		factor = 0.35
 		modifier = {
 			factor = 0
 			NOT = { num_of_cities = 6 }
 			NOT = { has_government_attribute = is_merchant_republic }
 		}
 		modifier = {
-			factor = 5
+			factor = 6
 			has_government_attribute = is_merchant_republic
 		}
 	}
@@ -366,7 +366,7 @@ economic_ideas = {
  	}
 
 	ai_will_do = {
-		factor = 0.40
+		factor = 0.30
 		modifier = {
 			factor = 1.5
 			inflation = 5
@@ -603,7 +603,7 @@ maritime_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.41
+		factor = 0.5
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -622,8 +622,12 @@ maritime_ideas = {
 			NOT = { num_of_ports = 10 }
 		}
 		modifier = {
+			factor = 2
+			num_of_ports = 20
+		}
+		modifier = {
 			factor = 0.41
-			num_of_cities = 50
+			num_of_cities = 60
 		}
 
 		modifier = {
@@ -802,7 +806,7 @@ administrative_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.45
+		factor = 0.42
 	}
 }
 

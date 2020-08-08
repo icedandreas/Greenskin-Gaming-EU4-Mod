@@ -72,4 +72,10 @@ Nomads estate now have the privilege for +1 mil power.
 
 Tweaked ai's decision making for ideas.
 
-ai has -10% tech and idea cost to compensate for poor monarch power usage.
+Ai has -10% tech and idea cost to compensate for poor monarch power usage.
+
+Ai will now start having more cannons from mil tech 13 instead of from mil tech 11.
+
+Ai can now use between 0-100% cav in their armies. Changed from 5-50%
+
+Ai can now dev to 20. Up from 10.
