@@ -26,7 +26,6 @@ estate_church =
 			NOT = { tag = USA }
 			government = theocracy
 		}
-		is_nomad = yes
 		is_colonial_nation = no
 		NOT = { has_reform = revolutionary_empire_reform }
 	}

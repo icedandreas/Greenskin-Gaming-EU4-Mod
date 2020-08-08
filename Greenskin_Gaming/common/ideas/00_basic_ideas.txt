@@ -45,7 +45,7 @@ aristocracy_ideas = {
 	ai_will_do = {
 		factor = 0.9
 		modifier = {
-			factor = 15
+			factor = 25
 			has_reform = steppe_horde
 		}		
 	}
@@ -285,7 +285,7 @@ defensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.50
+		factor = 1.20
 	}
 }
 
@@ -746,7 +746,7 @@ expansion_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.45
+		factor = 0.30
 		modifier = {
 			factor = 10
 			OR = {
@@ -755,7 +755,11 @@ expansion_ideas = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 0
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 7
 			OR = {
 				tag = CAS
 				tag = POR
