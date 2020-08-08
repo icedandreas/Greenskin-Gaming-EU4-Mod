@@ -566,7 +566,7 @@ ai_nation = {
 	horde_unity = 3
 	technology_cost = -0.1
 	idea_cost = -0.1
-	development_cost = -0.2
+	development_cost = -0.1
 }
 
 
