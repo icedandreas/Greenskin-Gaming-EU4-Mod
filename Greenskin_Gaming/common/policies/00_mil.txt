@@ -30,7 +30,7 @@ thicker_shields = {
 	shock_damage_received = -0.1
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 1.5
 			is_at_war = yes
@@ -110,7 +110,7 @@ forced_conscription = {
 	global_manpower_modifier = 0.2
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 1.5
 			is_at_war = yes
@@ -152,8 +152,9 @@ longer_lances = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 1.5
+			factor = 50
 			is_at_war = yes
+			has_reform = steppe_horde
 		}
 	}
 }
@@ -190,10 +191,14 @@ longer_lances = {
 	vassal_forcelimit_bonus = 1.5
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.01
 		modifier = {
-			factor = 1.5
-			is_at_war = yes
+			factor = 100
+			vassal = 1
+		}
+		modifier = {
+			factor = 100
+			vassal = 2
 		}
 	}
 }
@@ -350,7 +355,7 @@ bunk_bed_barracks = {
 	garrison_size = 0.40
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 1.5
 			is_at_war = yes
@@ -550,7 +555,7 @@ relentless_drill = {
 	discipline = 0.05
 
 	ai_will_do = {
-		factor = 1
+		factor = 10
 		modifier = {
 			factor = 5
 			is_at_war = yes
@@ -830,7 +835,7 @@ recruitment_officers = {
 	global_regiment_recruit_speed = -0.30
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 1.5
 			is_at_war = yes

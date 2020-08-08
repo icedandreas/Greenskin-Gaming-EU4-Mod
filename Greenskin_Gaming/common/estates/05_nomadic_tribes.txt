@@ -26,10 +26,10 @@ estate_nomadic_tribes = {
 		manpower_recovery_speed = 0.2
 	}	
 	country_modifier_angry = {
-		horde_unity = -4
-		manpower_recovery_speed = -0.4
-		raze_power_gain = -1
+		horde_unity = -1
+		manpower_recovery_speed = -0.1
 		global_unrest = 2
+		cavalry_cost = -0.1
 		cavalry_power = -0.1
 	}
 	land_ownership_modifier = {

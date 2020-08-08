@@ -69,3 +69,7 @@ Dhimmi now have the privilige for +1 dip power.
 Loyal Nomads estate now scales up to 20% cavalry combat ability.
 
 Nomads estate now have the privilege for +1 mil power.
+
+Tweaked ai's decision making for ideas.
+
+ai has -10% tech and idea cost to compensate for poor monarch power usage.

@@ -29,6 +29,18 @@ protection_fee = {
 	
 	vassal_income = 0.25
 
+	ai_will_do = {
+		factor = 0.01
+		modifier = {
+			factor = 100
+			vassal = 1
+		}
+		modifier = {
+			factor = 100
+			vassal = 2
+		}
+	}
+
 }
 
 spirits_act = {
@@ -63,7 +75,11 @@ spirits_act = {
 	war_exhaustion = -0.05
 	
 	ai_will_do = {
-		factor = 0.8		
+		factor = 0.8
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
 	}	
 }
 
@@ -133,6 +149,41 @@ grandest_navy = {
 	}
 	
 	naval_forcelimit_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+			NOT = { is_colonial_nation = yes }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+			num_of_cities = 50
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+			}
+		}
+	}
 }
 
 new_world_act = {
@@ -166,6 +217,44 @@ new_world_act = {
 	
 	global_colonial_growth = 25
 	range = 0.25
+	
+	ai_will_do = {
+		factor = 0.48
+		modifier = {
+			factor = 10
+			OR = {
+				has_idea_group = exploration_ideas
+				is_colonial_nation = yes
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				tag = CAS
+				tag = POR
+				tag = SPA
+			}
+		}
+		modifier = {
+			factor = 10
+			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
+			tag = RUS
+			num_of_cities = 20
+			any_owned_province = {
+				has_empty_adjacent_province = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_idea_group = exploration_ideas }
+			NOT = { is_colonial_nation = yes }
+			NOT = {
+				any_owned_province = {
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+	}
 }
 
 greasing_hands = {
@@ -238,6 +327,40 @@ piracy_act = {
 	
 	privateer_efficiency = 0.50
 	
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+			NOT = { is_colonial_nation = yes }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+			num_of_cities = 50
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+			}
+		}
+	}
 }
 
 justified_agression = {
@@ -272,6 +395,9 @@ justified_agression = {
 	
 	ae_impact = -0.125
 	
+	ai_will_do = {
+		factor = 0.8		
+	}
 }
 
 the_integration_act = {
@@ -306,6 +432,17 @@ the_integration_act = {
 	
 	diplomatic_annexation_cost = -0.20
 	
+	ai_will_do = {
+		factor = 0.01
+		modifier = {
+			factor = 100
+			vassal = 1
+		}
+		modifier = {
+			factor = 100
+			vassal = 2
+		}
+	}
 }
 
 bread_and_games = {
@@ -340,6 +477,17 @@ bread_and_games = {
 	
 	reduced_liberty_desire = 15
 	
+	ai_will_do = {
+		factor = 0.01
+		modifier = {
+			factor = 100
+			vassal = 1
+		}
+		modifier = {
+			factor = 100
+			vassal = 2
+		}
+	}
 }
 
 new_world_effort = {
@@ -374,6 +522,34 @@ new_world_effort = {
 	
 	colonists = 1
 	
+	ai_will_do = {
+		factor = 0.48
+		modifier = {
+			factor = 10
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+				is_colonial_nation = yes
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				tag = CAS
+				tag = POR
+				tag = SPA
+			}
+		}
+		modifier = {
+			factor = 10
+			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
+			tag = RUS
+			num_of_cities = 20
+			any_owned_province = {
+				has_empty_adjacent_province = yes
+			}
+		}
+	}
 }
 
 silver_tongue = {
@@ -445,6 +621,39 @@ merchant_fleet = {
 	
 	global_ship_trade_power = 0.4
 
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+				has_idea_group = trade_ideas
+			}
+		}
+	}
 }
 
 efficient_merchants = {
@@ -480,7 +689,7 @@ efficient_merchants = {
 	trade_efficiency = 0.15
 	
 	ai_will_do = {
-		factor = 0.8		
+		factor = 1.2		
 	}
 
 }
@@ -555,7 +764,38 @@ all_can_serve = {
 	
 	global_sailors_modifier = 0.35
 	
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
 
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+			}
+		}
+	}
 }
 
 ship_commisars = {
@@ -590,6 +830,38 @@ ship_commisars = {
 	
 	naval_morale = 0.1
 	
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+			}
+		}
+	}
 }
 
 lowered_standards = {
@@ -662,6 +934,38 @@ oak_fleets = {
 	
 	global_ship_cost = -0.2
 
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+			}
+		}
+	}
 }
 
 trade_deals = {
@@ -696,6 +1000,39 @@ trade_deals = {
 	
 	trade_steering = 0.25
 
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+				has_idea_group = trade_ideas
+			}
+		}
+	}
 }
 
 root_out_corruption_act = {
@@ -769,6 +1106,39 @@ dominant_navy = {
 	heavy_ship_power = 0.1
 	galley_power = 0.20
 
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+				has_idea_group = trade_ideas
+			}
+		}
+	}
 }
 
 they_got_lucky = {
@@ -803,6 +1173,39 @@ they_got_lucky = {
 	
 	sunk_ship_morale_hit_recieved = -0.33
 
+	ai_will_do = {
+		factor = 0.41
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.41
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.41
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+				has_idea_group = trade_ideas
+			}
+		}
+	}
 }
 
 bully_act = {
@@ -837,4 +1240,7 @@ bully_act = {
 	
 	power_projection_from_insults = 1
 
+	ai_will_do = {
+		factor = 0.4	
+	}
 }

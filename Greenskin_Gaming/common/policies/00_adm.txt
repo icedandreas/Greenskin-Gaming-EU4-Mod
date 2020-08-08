@@ -84,6 +84,10 @@ foreign_ideas = {
 	}
 		
 	global_institution_spread = 0.33
+	
+	ai_will_do = {
+		factor = 0.8		
+	}
 }
 
 cultural_enrichment = {
@@ -118,6 +122,9 @@ cultural_enrichment = {
 
 	culture_conversion_cost = -0.15
 
+	ai_will_do = {
+		factor = 0.8		
+	}
 }
 
 heretic_tolerance = {
@@ -150,6 +157,14 @@ heretic_tolerance = {
 	}
 	
 	tolerance_heretic = 2
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 65 }
+		}
+	}
 }
 
 stability_act = {
@@ -184,11 +199,7 @@ stability_act = {
 	stability_cost_modifier = -0.15
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.1
-			is_at_war = no
-		}
+		factor = 0.8
 	}
 }
 
@@ -222,6 +233,14 @@ imperial_growth = {
 	}
 
 	imperial_authority_value = 0.25
+	
+	ai_will_do = {
+		factor = 4
+		modifier = {
+			factor = 0
+			is_emperor = no
+		}
+	}
 }
 
 the_loan_act = {
@@ -254,6 +273,10 @@ the_loan_act = {
 	}
 
 	interest = -0.5
+	
+	ai_will_do = {
+		factor = 0.8
+	}
 }
 
 tower_of_babylon = {
@@ -321,6 +344,10 @@ discounted_advisors = {
 	}
 	
 	advisor_cost = -0.15
+	
+	ai_will_do = {
+		factor = 0.8
+	}
 }
 
 
@@ -353,6 +380,14 @@ purge_the_heretics = {
 	}
 	
 	global_heretic_missionary_strength = 0.03
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 65 }
+		}
+	}
 }
 
 tolerate_heatern = {
@@ -385,6 +420,14 @@ tolerate_heatern = {
 	}
 	
 	tolerance_heathen = 2
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 65 }
+		}
+	}
 }
 
 unity_of_religion = {
@@ -417,6 +460,14 @@ unity_of_religion = {
 	}
 
 	religious_unity = 0.25
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 75 }
+		}
+	}
 }
 
 cling_to_glory = {
@@ -450,6 +501,10 @@ cling_to_glory = {
 	}		
 
 	prestige_decay = -0.01
+	
+	ai_will_do = {
+		factor = 0.8
+	}
 }
 
 fabricate_glory = {
@@ -518,7 +573,10 @@ bulk_discount = {
 	}
 
 	core_creation = -0.15
-
+	
+	ai_will_do = {
+		factor = 0.8
+	}
 }
 
 expanded_court = {
@@ -587,6 +645,14 @@ absolute_absolutism = {
 	}
 
 	yearly_absolutism = 1
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			absolutism = 99
+		}
+	}
 }
 
 3_man_shifts = {
@@ -656,6 +722,13 @@ forced_unity = {
 
 	global_missionary_strength = 0.02
 
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 65 }
+		}
+	}
 }
 
 the_legit_act = {
@@ -729,6 +802,13 @@ the_mint_act = {
 
 	inflation_reduction = 0.2
 
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = { inflation = 4 }
+		}
+	}
 }
 
 capacity_for_greatness = {
@@ -836,5 +916,9 @@ equality_for_all = {
 
 	ai_will_do = {
 		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 65 }
+		}
 	}
 }
