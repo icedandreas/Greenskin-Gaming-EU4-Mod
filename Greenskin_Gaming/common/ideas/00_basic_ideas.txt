@@ -43,11 +43,7 @@ aristocracy_ideas = {
 	
 
 	ai_will_do = {
-		factor = 0.9	
-		modifier = {
-			factor = 0.5
-			is_subject = yes
-		}
+		factor = 0.9
 		modifier = {
 			factor = 10
 			has_reform = steppe_horde
@@ -89,7 +85,7 @@ plutocracy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.6
+		factor = 0.8
 	}
 }
 
@@ -128,11 +124,7 @@ innovativeness_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.25
-		modifier = {
-			factor = 2
-			has_reform = steppe_horde
-		}
+		factor = 0.35
 		modifier = {
 			factor = 2
 			num_of_cities = 20
@@ -182,11 +174,7 @@ religious_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.9
-		modifier = {
-			factor = 0
-			has_idea_group = humanist_ideas
-		}
+		factor = 0.45
 	}
 }
 
@@ -226,7 +214,7 @@ spy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.75
+		factor = 0.45
 	}
 }
 
@@ -332,14 +320,14 @@ trade_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.7
+		factor = 0.45
 		modifier = {
 			factor = 0
 			NOT = { num_of_cities = 6 }
 			NOT = { has_government_attribute = is_merchant_republic }
 		}
 		modifier = {
-			factor = 3
+			factor = 5
 			has_government_attribute = is_merchant_republic
 		}
 	}
@@ -378,7 +366,7 @@ economic_ideas = {
  	}
 
 	ai_will_do = {
-		factor = 0.85
+		factor = 0.40
 		modifier = {
 			factor = 1.5
 			inflation = 5
@@ -386,10 +374,6 @@ economic_ideas = {
 		modifier = {
 			factor = 1.5
 			inflation = 10
-		}
-		modifier = {
-			factor = 2
-			has_reform = steppe_horde
 		}
 		modifier = {
 			factor = 1.3
@@ -438,7 +422,7 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.75
+		factor = 0.45
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -758,7 +742,7 @@ expansion_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.48
+		factor = 0.45
 		modifier = {
 			factor = 10
 			OR = {
@@ -818,11 +802,7 @@ administrative_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.96
-		modifier = {
-			factor = 2
-			has_reform = steppe_horde
-		}
+		factor = 0.45
 	}
 }
 
@@ -858,7 +838,7 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.5
+		factor = 0.45
 		modifier = {
 			factor = 1.5
 			is_emperor = yes
