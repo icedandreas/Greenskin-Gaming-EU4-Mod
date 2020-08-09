@@ -1,7 +1,7 @@
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
 NDefines.NCountry.PS_IMPROVE_PROVINCE_BASE = 45
-NDefines.NCountry.BASE_POSSIBLE_POLICIES = 4,						-- How many policies in a category a nation can have as a base
-NDefines.NCountry.BASE_FREE_POLICIES = 2,							-- How many policies in a category a nation get for free
+NDefines.NCountry.BASE_POSSIBLE_POLICIES = 4
+NDefines.NCountry.BASE_FREE_POLICIES = 2
 NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 7
 NDefines.NMilitary.CAVALRY_SPEED = 1.05
 NDefines.NMilitary.DAYS_PER_PHASE = 2

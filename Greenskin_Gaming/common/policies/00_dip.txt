@@ -32,6 +32,10 @@ protection_fee = {
 	ai_will_do = {
 		factor = 0.01
 		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}	
+		modifier = {
 			factor = 100
 			vassal = 1
 		}
