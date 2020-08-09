@@ -85,7 +85,7 @@ plutocracy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.8
+		factor = 1.6
 	}
 }
 
@@ -249,7 +249,7 @@ offensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.50
+		factor = 3
 	}
 }
 
@@ -285,7 +285,7 @@ defensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.20
+		factor = 2.4
 	}
 }
 
@@ -320,7 +320,7 @@ trade_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.35
+		factor = 0.30
 		modifier = {
 			factor = 0
 			NOT = { num_of_cities = 6 }
@@ -672,7 +672,7 @@ quality_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.98
+		factor = 1.96
 	}
 }
 
@@ -707,7 +707,7 @@ quantity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.5
+		factor = 3
 	}
 }
 
@@ -810,6 +810,10 @@ administrative_ideas = {
 
 	ai_will_do = {
 		factor = 0.35
+		modifier = {
+			factor = 0.50
+			num_of_cities = 50
+		}
 	}
 }
 
