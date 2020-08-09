@@ -43,9 +43,9 @@ aristocracy_ideas = {
 	
 
 	ai_will_do = {
-		factor = 0.9
+		factor = 4.5
 		modifier = {
-			factor = 25
+			factor = 7
 			has_reform = steppe_horde
 		}		
 	}
@@ -85,7 +85,7 @@ plutocracy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.6
+		factor = 4.5
 	}
 }
 
@@ -214,7 +214,7 @@ spy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.50
+		factor = 0.45
 	}
 }
 
@@ -249,7 +249,7 @@ offensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 3
+		factor = 4.5
 	}
 }
 
@@ -285,7 +285,7 @@ defensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2.4
+		factor = 4.5
 	}
 }
 
@@ -327,7 +327,7 @@ trade_ideas = {
 			NOT = { has_government_attribute = is_merchant_republic }
 		}
 		modifier = {
-			factor = 6
+			factor = 7
 			has_government_attribute = is_merchant_republic
 		}
 	}
@@ -366,7 +366,7 @@ economic_ideas = {
  	}
 
 	ai_will_do = {
-		factor = 0.30
+		factor = 0.33
 		modifier = {
 			factor = 1.5
 			inflation = 5
@@ -617,18 +617,24 @@ maritime_ideas = {
 			NOT = { num_of_ports = 1 }
 		}
 		modifier = {
-			factor = 0.41
+			factor = 0.50
 			NOT = { num_of_ports = 10 }
 		}
 		modifier = {
-			factor = 2
-			num_of_ports = 20
+			factor = 0.40
+			num_of_cities = 50
 		}
 		modifier = {
-			factor = 0.41
-			num_of_cities = 60
+			factor = 3
+			OR = {
+				tag = GBR
+				tag = NED
+				tag = ENG
+				tag = ARA
+				tag = VEN
+				tag = DEN
+			}
 		}
-
 		modifier = {
 			factor = 10
 			OR = {
@@ -672,7 +678,7 @@ quality_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.96
+		factor = 4.5
 	}
 }
 
@@ -707,7 +713,7 @@ quantity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 3
+		factor = 4.5
 	}
 }
 
@@ -812,7 +818,7 @@ administrative_ideas = {
 		factor = 0.35
 		modifier = {
 			factor = 0.50
-			num_of_cities = 50
+			NOT = { num_of_cities = 50 }
 		}
 	}
 }

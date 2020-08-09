@@ -318,7 +318,6 @@ interaction = {
 		}
 		modifier = {
 			factor = 0
-			crown_land_share = 30
 			if = {
 				limit = { num_of_cities = 50 }
 				NOT = { army_size_percentage = 0.5 }
@@ -328,7 +327,7 @@ interaction = {
 				NOT = { army_size_percentage = 0.75 }
 			}
 			else = {
-				NOT = { army_size_percentage = 0.9 }
+				NOT = { army_size_ = 25 }
 			}
 			if = {
 				limit = { is_emperor = yes }
