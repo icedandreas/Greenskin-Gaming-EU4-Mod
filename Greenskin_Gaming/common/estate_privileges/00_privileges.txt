@@ -1492,6 +1492,7 @@ estate_burghers_land_of_commerce = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		NOT = { has_estate_privilege = estate_burghers_land_of_commerce }
 	}
 	on_granted = {
 	}
