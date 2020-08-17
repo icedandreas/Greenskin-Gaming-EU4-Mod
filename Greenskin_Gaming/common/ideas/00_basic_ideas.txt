@@ -754,14 +754,20 @@ expansion_ideas = {
 		factor = 0.30
 		modifier = {
 			factor = 10
-			OR = {
-				has_idea_group = exploration_ideas
-				is_colonial_nation = yes
-			}
+			has_idea_group = exploration_ideas
+		}
+		modifier = {
+			factor = 1000
+			is_colonial_nation = yes
 		}
 		modifier = {
 			factor = 0
-			NOT = { num_of_ports = 10 }
+			NOT = { num_of_ports = 1 }
+			NOT = { any_owned_province = {
+				has_empty_adjacent_province = yes
+				}
+			}
+
 		}
 		modifier = {
 			factor = 7
