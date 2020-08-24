@@ -142,7 +142,7 @@ country_event = {
 
 	trigger = {
 		ai = yes
-		treasury = 200
+		treasury = 1000
 		NOT = {
 			num_of_loans = 3
 		}
