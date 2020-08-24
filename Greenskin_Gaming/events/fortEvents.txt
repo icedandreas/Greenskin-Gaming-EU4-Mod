@@ -12,6 +12,8 @@ country_event = {
 		ai = yes
 		mil_tech = 14
 		treasury = 200
+		is_at_war = no
+		current_income_balance = 2
 		NOT = {
 			num_of_loans = 3
 		}
@@ -56,6 +58,8 @@ country_event = {
 		ai = yes
 		mil_tech = 19
 		treasury = 200
+		is_at_war = no
+		current_income_balance = 2
 		NOT = {
 			num_of_loans = 3
 		}
@@ -100,6 +104,8 @@ country_event = {
 		ai = yes
 		mil_tech = 24
 		treasury = 200
+		is_at_war = no
+		current_income_balance = 2
 		NOT = {
 			num_of_loans = 3
 		}
@@ -142,7 +148,9 @@ country_event = {
 
 	trigger = {
 		ai = yes
-		treasury = 1000
+		treasury = 200
+		is_at_war = no
+		current_income_balance = 2
 		NOT = {
 			num_of_loans = 3
 		}
