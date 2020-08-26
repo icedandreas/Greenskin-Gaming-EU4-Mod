@@ -1127,23 +1127,23 @@ country_event = {
 						substract_variable = {which = effecientmanpower	value = 15}
 						
 						limit = {
-								NOT = {
-									base_production = 15
-								}
-								NOT = {
-									development = 30
-								}
+							NOT = {
+								base_production = 15
+							}
+							NOT = {
+								development = 30
+							}
+							check_variable = {
+							which = countingvariable
+								value = 0
+							}
+							NOT = {
 								check_variable = {
-									which = countingvariable
+									which = effecientmanpower
 									value = 0
 								}
-								NOT = {
-									check_variable = {
-										which = effecientmanpower
-										value = 0
-									}
-								}
-								trade_goods = gold
+							}
+							trade_goods = gold
 						}
 						add_base_production = 1
 						add_scaled_local_dip_power = -5
@@ -1164,8 +1164,8 @@ country_event = {
 								primitives = yes
 								dip_power = 1400
 							}
-						}					}
-					
+						}					
+					}			
 				}
 				root = {
 					random_owned_province = {
@@ -1180,39 +1180,39 @@ country_event = {
 						substract_variable = {which = effecientmanpower	value = 15}
 						
 						limit = {
-								NOT = {
-									development = 20
-								}
-								OR = {
-									trade_goods = coal
-									trade_goods = ivory
-									trade_goods = cocoa
-									trade_goods = dyes
-									trade_goods = silk
-									trade_goods = gems
-									trade_goods = paper
-									trade_goods = cloth
-									trade_goods = salt
-									trade_goods = copper
-									trade_goods = iron
-									trade_goods = chinaware
-									trade_goods = spices
-									trade_goods = coffee
-									trade_goods = cotton
-									trade_goods = sugar
-									trade_goods = tobacco
-									trade_goods = glass
-								}
+							NOT = {
+								development = 20
+							}
+							OR = {
+								trade_goods = coal
+								trade_goods = ivory
+								trade_goods = cocoa
+								trade_goods = dyes
+								trade_goods = silk
+								trade_goods = gems
+								trade_goods = paper
+								trade_goods = cloth
+								trade_goods = salt
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = chinaware
+								trade_goods = spices
+								trade_goods = coffee
+								trade_goods = cotton
+								trade_goods = sugar
+								trade_goods = tobacco
+								trade_goods = glass
+							}
+							check_variable = {
+								which = countingvariable
+								value = 0
+							}
+							NOT = {
 								check_variable = {
-									which = countingvariable
+									which = effecientmanpower
 									value = 0
 								}
-								NOT = {
-									check_variable = {
-										which = effecientmanpower
-										value = 0
-									}
-								}
+							}
 						}
 						add_base_production = 1
 						add_scaled_local_dip_power = -5
@@ -1233,8 +1233,8 @@ country_event = {
 								primitives = yes
 								dip_power = 1400
 							}
-						}					}
-					
+						}
+					}
 				}
 				root = {
 					random_owned_province = {
@@ -1249,39 +1249,39 @@ country_event = {
 						substract_variable = {which = effecientmanpower	value = 15}
 						
 						limit = {
-								NOT = {
-									development = 30
-								}
-								OR = {
-									trade_goods = coal
-									trade_goods = ivory
-									trade_goods = cocoa
-									trade_goods = dyes
-									trade_goods = silk
-									trade_goods = gems
-									trade_goods = paper
-									trade_goods = cloth
-									trade_goods = salt
-									trade_goods = copper
-									trade_goods = iron
-									trade_goods = chinaware
-									trade_goods = spices
-									trade_goods = coffee
-									trade_goods = cotton
-									trade_goods = sugar
-									trade_goods = tobacco
-									trade_goods = glass
-								}
+							NOT = {
+								development = 30
+							}
+							OR = {
+								trade_goods = coal
+								trade_goods = ivory
+								trade_goods = cocoa
+								trade_goods = dyes
+								trade_goods = silk
+								trade_goods = gems
+								trade_goods = paper
+								trade_goods = cloth
+								trade_goods = salt
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = chinaware
+								trade_goods = spices
+								trade_goods = coffee
+								trade_goods = cotton
+								trade_goods = sugar
+								trade_goods = tobacco
+								trade_goods = glass
+							}
+							check_variable = {
+								which = countingvariable
+								value = 0
+							}
+							NOT = {
 								check_variable = {
-									which = countingvariable
+									which = effecientmanpower
 									value = 0
 								}
-								NOT = {
-									check_variable = {
-										which = effecientmanpower
-										value = 0
-									}
-								}
+							}
 						}
 						add_base_production = 1
 						add_scaled_local_dip_power = -5
