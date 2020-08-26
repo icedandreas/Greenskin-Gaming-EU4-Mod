@@ -12,9 +12,9 @@ country_event = {
 		OR = {
 			AND = {
 				primitives = no
-				adm_power = 500
-				dip_power = 600
-				mil_power = 400
+				adm_power = 600
+				dip_power = 700
+				mil_power = 500
 			}
 			adm_power = 950
 			dip_power = 950
@@ -32,9 +32,9 @@ country_event = {
 			if = {
 				limit = {
 					primitives = no
-					adm_power = 500
-					dip_power = 600
-					mil_power = 400
+					adm_power = 600
+					dip_power = 700
+					mil_power = 500
 					calc_true_if = {
 						capital_scope = {
 							NOT = {
@@ -216,9 +216,9 @@ country_event = {
 			if = {
 				limit = {
 					primitives = no
-					adm_power = 500
-					dip_power = 600
-					mil_power = 400
+					adm_power = 600
+					dip_power = 700
+					mil_power = 500
 					calc_true_if = {
 						all_owned_province = {
 							NOT = {
@@ -448,9 +448,9 @@ country_event = {
 			if = {
 				limit = {
 					primitives = no
-					adm_power = 500
-					dip_power = 600
-					mil_power = 400
+					adm_power = 600
+					dip_power = 700
+					mil_power = 500
 					calc_true_if = {
 						all_owned_province = {
 							NOT = {
@@ -876,9 +876,9 @@ country_event = {
 			if = {
 				limit = {
 					primitives = no
-					adm_power = 500
-					dip_power = 600
-					mil_power = 400
+					adm_power = 600
+					dip_power = 700
+					mil_power = 500
 					calc_true_if = {
 						all_owned_province = {
 							NOT = {
@@ -1095,7 +1095,7 @@ country_event = {
 					}
 				}
 			}
-
+#Start of excess mana code.
 			if = {
 				limit = {
 						root = {
@@ -1115,10 +1115,33 @@ country_event = {
 		        		}
 				}
 				root = {
-					random_owned_province = {
+					random_owned_province = {						
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_tax}
+						change_variable = {which = countingvariable	value = base_manpower}
+						substract_variable = {which = countingvariable	value = base_production}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
 								NOT = {
 									base_production = 15
+								}
+								NOT = {
+									development = 30
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
 								}
 								trade_goods = gold
 						}
@@ -1146,6 +1169,16 @@ country_event = {
 				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_tax}
+						change_variable = {which = countingvariable	value = base_manpower}
+						substract_variable = {which = countingvariable	value = base_production}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
 								NOT = {
 									development = 20
@@ -1170,6 +1203,16 @@ country_event = {
 									trade_goods = tobacco
 									trade_goods = glass
 								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
 						}
 						add_base_production = 1
 						add_scaled_local_dip_power = -5
@@ -1177,26 +1220,68 @@ country_event = {
 					}
 				}
 			}
-
-				# catch cases dip
+			
 			if = {
 				limit = {
-					OR = {
-						AND = {
-							primitives = no
-							dip_power = 950
-						}
-						AND = {
-							primitives = yes
-							dip_power = 1400
-						}
-					}				}
+					root = {
+						OR = {
+							AND = {
+								primitives = no
+								dip_power = 950
+							}
+							AND = {
+								primitives = yes
+								dip_power = 1400
+							}
+						}					}
+					
+				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_tax}
+						change_variable = {which = countingvariable	value = base_manpower}
+						substract_variable = {which = countingvariable	value = base_production}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
-							NOT = {
-								development = 30
-							}
+								NOT = {
+									development = 30
+								}
+								OR = {
+									trade_goods = coal
+									trade_goods = ivory
+									trade_goods = cocoa
+									trade_goods = dyes
+									trade_goods = silk
+									trade_goods = gems
+									trade_goods = paper
+									trade_goods = cloth
+									trade_goods = salt
+									trade_goods = copper
+									trade_goods = iron
+									trade_goods = chinaware
+									trade_goods = spices
+									trade_goods = coffee
+									trade_goods = cotton
+									trade_goods = sugar
+									trade_goods = tobacco
+									trade_goods = glass
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
 						}
 						add_base_production = 1
 						add_scaled_local_dip_power = -5
@@ -1204,29 +1289,67 @@ country_event = {
 					}
 				}
 			}
-
+			
 			if = {
 				limit = {
 					OR = {
 						AND = {
 							primitives = no
 							dip_power = 950
+							NOT = {
+								mercantilism = 100
+							}
 						}
 						AND = {
 							primitives = yes
 							dip_power = 1400
+							NOT = {
+								mercantilism = 100
+							}
+						}
+					}
+				}
+				add_mercantilism = 1
+				add_dip_power = -100
+			}
+#mil
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							primitives = no
+							mil_power = 950
+						}
+						AND = {
+							primitives = yes
+							mil_power = 1400
 						}
 					}				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_tax}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_manpower}
+						
 						limit = {
-							NOT = {
-								development = 40
-							}
+								NOT = {
+									development = 20
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
 						}
-						add_base_production = 1
-						add_scaled_local_dip_power = -5
-						add_dip_power = -30
+						add_base_manpower = 1
+						add_scaled_local_mil_power = -5
+						add_mil_power = -30
 					}
 				}
 			}
@@ -1245,22 +1368,17 @@ country_event = {
 					}				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_tax}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_manpower}
 						limit = {
 								NOT = {
 									development = 20
 								}
-								OR = {
-									trade_goods = grain
-									trade_goods = fish
-									trade_goods = wine
-									trade_goods = wool
-									trade_goods = incense
-									trade_goods = fur
-									trade_goods = livestock
-									trade_goods = naval_supplies
-									trade_goods = slaves
-									trade_goods = tea
-									trade_goods = tropical_wood
+								check_variable = {
+									which = countingvariable
+									value = 0
 								}
 						}
 						add_base_manpower = 1
@@ -1269,6 +1387,47 @@ country_event = {
 					}
 				}
 			}
+			
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							primitives = no
+							mil_power = 950
+						}
+						AND = {
+							primitives = yes
+							mil_power = 1400
+						}
+					}				}
+				root = {
+					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_tax}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_manpower}
+						limit = {
+								NOT = {
+									development = 30
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+						}
+						add_base_manpower = 1
+						add_scaled_local_mil_power = -5
+						add_mil_power = -30
+					}
+				}
+			}
+			
 				# catch cases mil
 			if = {
 				limit = {
@@ -1295,33 +1454,31 @@ country_event = {
 					}
 				}
 			}
-
+			
 			if = {
 				limit = {
 					OR = {
 						AND = {
 							primitives = no
 							mil_power = 950
+							NOT = {
+								army_professionalism = 100
+							}
 						}
 						AND = {
 							primitives = yes
 							mil_power = 1400
-						}
-					}				}
-				root = {
-					random_owned_province = {
-						limit = {
 							NOT = {
-								development = 40
+								army_professionalism = 100
 							}
 						}
-						add_base_manpower = 1
-						add_scaled_local_mil_power = -5
-						add_mil_power = -30
 					}
 				}
+				add_army_professionalism = 1
+				add_mil_power = -50
 			}
-
+			
+#adm
 			if = {
 				limit = {
 					OR = {
@@ -1379,9 +1536,35 @@ country_event = {
 				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
 								NOT = {
 									development = 20
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
 								}
 								has_owner_accepted_culture = yes
 								has_owner_religion = yes
@@ -1408,9 +1591,35 @@ country_event = {
 				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
 								NOT = {
 									development = 20
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
 								}
 								has_owner_accepted_culture = yes
 						}
@@ -1436,9 +1645,35 @@ country_event = {
 				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
 								NOT = {
 									development = 20
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
 								}
 								has_owner_religion = yes
 						}
@@ -1448,7 +1683,7 @@ country_event = {
 					}
 				}
 			}
-				# catch cases adm
+			
 			if = {
 				limit = {
 					OR = {
@@ -1464,10 +1699,36 @@ country_event = {
 				}
 				root = {
 					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
 						limit = {
-							NOT = {
-								development = 30
-							}
+								NOT = {
+									development = 20
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
 						}
 						add_base_tax = 1
 						add_scaled_local_adm_power = -5
@@ -1475,6 +1736,235 @@ country_event = {
 					}
 				}
 			}
+			
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							primitives = no
+							adm_power = 950
+						}
+						AND = {
+							primitives = yes
+							adm_power = 1400
+						}
+					}				
+				}
+				root = {
+					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
+						limit = {
+								NOT = {
+									development = 30
+								}
+								NOT = {
+									base_tax = 14
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
+								has_owner_accepted_culture = yes
+								has_owner_religion = yes
+						}
+						add_base_tax = 1
+						add_scaled_local_adm_power = -5
+						add_adm_power = -30
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							primitives = no
+							adm_power = 950
+						}
+						AND = {
+							primitives = yes
+							adm_power = 1400
+						}
+					}				
+				}
+				root = {
+					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
+						limit = {
+								NOT = {
+									development = 30
+								}
+								NOT = {
+									base_tax = 14
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
+								has_owner_accepted_culture = yes
+						}
+						add_base_tax = 1
+						add_scaled_local_adm_power = -5
+						add_adm_power = -30
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							primitives = no
+							adm_power = 950
+						}
+						AND = {
+							primitives = yes
+							adm_power = 1400
+						}
+					}				
+				}
+				root = {
+					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
+						limit = {
+								NOT = {
+									development = 30
+								}
+								NOT = {
+									base_tax = 14
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
+								has_owner_religion = yes
+						}
+						add_base_tax = 1
+						add_scaled_local_adm_power = -5
+						add_adm_power = -30
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							primitives = no
+							adm_power = 950
+						}
+						AND = {
+							primitives = yes
+							adm_power = 1400
+						}
+					}				
+				}
+				root = {
+					random_owned_province = {
+						set_variable = {which = countingvariable	value = 0}
+						change_variable = {which = countingvariable	value = base_manpower}
+						change_variable = {which = countingvariable	value = base_production}
+						substract_variable = {which = countingvariable	value = base_tax}
+						
+						set_variable = {which = effecientmanpower	value = 0}
+						change_variable = {which = effecientmanpower	value = base_tax}
+						change_variable = {which = effecientmanpower	value = base_production}
+						substract_variable = {which = effecientmanpower	value = 15}
+						
+						limit = {
+								NOT = {
+									development = 30
+								}
+								NOT = {
+									base_tax = 14
+								}
+								OR = {
+									trade_goods = grain
+									trade_goods = fish
+									trade_goods = wine
+									trade_goods = livestock
+								}
+								check_variable = {
+									which = countingvariable
+									value = 0
+								}
+								NOT = {
+									check_variable = {
+										which = effecientmanpower
+										value = 0
+									}
+								}
+						}
+						add_base_tax = 1
+						add_scaled_local_adm_power = -5
+						add_adm_power = -30
+					}
+				}
+			}
+			
 			if = {
 				limit = {
 					OR = {
@@ -1497,32 +1987,6 @@ country_event = {
 				add_stability = 1
 				add_adm_power = -200
 			}
-			if = {
-				limit = {
-					OR = {
-						AND = {
-							primitives = no
-							adm_power = 950
-						}
-						AND = {
-							primitives = yes
-							adm_power = 1400
-						}
-					}				
-				}
-				root = {
-					random_owned_province = {
-						limit = {
-							NOT = {
-								development = 40
-							}
-						}
-						add_base_tax = 1
-						add_scaled_local_adm_power = -5
-						add_adm_power = -30
-					}
-				}
-			}	
 		}
 	}
 

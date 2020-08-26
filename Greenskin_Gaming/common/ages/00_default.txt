@@ -113,7 +113,7 @@ age_of_discovery = {
 				set_country_flag = feudal_de_jure_law
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 1
 			}
 		}
 		
@@ -517,7 +517,7 @@ age_of_absolutism = {
 				set_country_flag = edict_of_absolutism
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 1
 			}
 		}
 
@@ -697,13 +697,11 @@ age_of_revolutions = {
 				liberty_desire_from_subject_development = -0.33
 			}
 			ai_will_do = {
-				factor = 15
+				factor = 5
 				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 30
-						}
+					factor = 2.5
+					any_subject_country = {
+						liberty_desire = 30
 					}
 				}
 			}
@@ -758,14 +756,12 @@ age_of_revolutions = {
 				reduced_liberty_desire_on_same_continent = 25
 			}
 			ai_will_do = {
-				factor = 15
+				factor = 5
 				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 30
-							same_continent = ROOT
-						}
+					factor = 2.5
+					any_subject_country = {
+						liberty_desire = 30
+						same_continent = ROOT
 					}
 				}
 			}
