@@ -2997,9 +2997,7 @@ impressment_offices = {
 	build_trigger = {
 		has_port = yes
 	}
-	keep_trigger = {
-		NOT = { trade_goods = coal }
-	}
+
 	modifier = {
 		local_sailors = 250
 	}
@@ -3010,62 +3008,7 @@ impressment_offices = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 0.1
-			NOT = {
-				OR = {
-					trade_goods = gold
-					trade_goods = salt
-					trade_goods = fish
-					trade_goods = naval_supplies
-					trade_goods = tropical_wood
-				}
-			}
-		}
-		modifier = { 
-			factor = 0
-			OR = {
-				trade_goods = fish
-				trade_goods = grain
-				trade_goods = livestock
-				trade_goods = wine
-			}
-		}
-		modifier = {
-			factor = 0.25
-			NOT = {
-				FROM = {
-					OR = {
-						has_idea_group = maritime_ideas
-						has_idea_group = naval_ideas
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0.8
-			has_latent_trade_goods = coal
-		}
-		modifier = {
-			factor = 0
-			FROM = { is_tribal = yes }
-		}
-		modifier = {
-			factor = 0
-			FROM = { primitives = yes }
-		}
-		modifier = {
-			factor = 0
-			FROM = { 
-				NOT = { num_of_ports = 1 }
-				NOT = { is_colonial_nation = yes }
-			}
-		}
-		modifier = {
-			factor = 0.33
-			FROM = { num_of_loans = 1 }
-		}
+		factor = 0
 	}
 }
 
