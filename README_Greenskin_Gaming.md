@@ -2,7 +2,7 @@
 
 This is a mod for the game Europa Universalis 4 created for Greenskin Gaming.
 The intention for the mod is to make the game better for a multiplayer setting and to add small balance changes.
-Inspired by Badook_china_qol, BetterAI, MJLMOD and Warmonger.
+Inspired by Badook_china_qol, BetterAI, MJLMOD, Warmonger, difficulty and AI.
 
 # Changelog
 
@@ -78,6 +78,12 @@ Ai will now start having more cannons from mil tech 16 instead of from mil tech 
 
 Ai can now use between 0-100% cav in their armies. Changed from 5-50%
 
-Ai can now dev to 100. Up from 10.
+Ai can now dev to 50. Up from 10.
 
-Ai improvements heavily inspired by BetterAI.
+Ai improvements heavily inspired by "BetterAI" and "Difficulty and AI"
+
+Ai choses better advisors.
+
+Ai is better at using edicts.
+
+ 
