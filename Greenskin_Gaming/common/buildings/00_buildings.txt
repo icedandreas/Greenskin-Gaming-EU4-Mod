@@ -166,13 +166,18 @@ workshop = {
 			factor = 0.75
 			NOT = { base_production = 4 }
 			OR = {
-				trade_goods = grain
 				trade_goods = naval_supplies
+				trade_goods = wool
+				trade_goods = tropical_wood
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				trade_goods = grain
 				trade_goods = fish
 				trade_goods = livestock
 				trade_goods = wine
-				trade_goods = wool
-				trade_goods = tropical_wood
 			}
 		}
 		modifier = {
@@ -395,12 +400,12 @@ barracks = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 10
 			has_building = soldier_households
 		}
 		modifier = {
 			factor = 0
-			NOT = { num_free_building_slots = 2 }
+			NOT = { num_free_building_slots = 1 }
 			NOT = { trade_goods = gold }
 			NOT = {
 				OR = {
@@ -493,11 +498,11 @@ shipyard = {
 			NOT = { is_state = yes }
 		}	
 		modifier = {
-			factor = 0.5
+			factor = 0.1
 			FROM = {
 				AND = {
 					NOT = { has_government_attribute = is_merchant_republic }
-					NOT = { num_of_ports = 6 }
+					NOT = { num_of_ports = 10 }
 				}
 			}
 		}
@@ -540,7 +545,7 @@ fort_15th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 10
+		factor = 5
 		modifier = {
 			factor = 25
 			is_capital = yes
@@ -585,7 +590,7 @@ fort_15th = {
 		}
 
 		modifier = {
-			factor = 1.667
+			factor = 3.2
 			OR = {
 				has_terrain = forest
 				has_terrain = hills
@@ -595,7 +600,7 @@ fort_15th = {
 			}
 		}
 		modifier = {
-			factor = 2.5
+			factor = 5
 			has_terrain = mountain
 		}
 		modifier = {
@@ -631,7 +636,7 @@ coastal_defence = {
 	}
 
 	ai_will_do = {
-		factor = 0.2
+		factor = 0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -683,7 +688,7 @@ courthouse = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -800,7 +805,7 @@ dock = {
 	}
 	
 	ai_will_do = {
-		factor = 0.8
+		factor = 0
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -884,11 +889,7 @@ regimental_camp = {
 	}
 	
 	ai_will_do = {
-		factor = 0.55
-		modifier = {
-			factor = 0.8
-			has_port = yes
-		}
+		factor = 2
 		modifier = {
 			factor = 1.2
 			NOT = { development = 10 }
@@ -919,7 +920,7 @@ regimental_camp = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { num_free_building_slots = 2 }
+			NOT = { num_free_building_slots = 1 }
 			NOT = { trade_goods = gold }
 			NOT = {
 				OR = {
@@ -957,7 +958,7 @@ fort_16th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 10
+		factor = 5
 		modifier = {
 			factor = 25
 			is_capital = yes
@@ -1011,7 +1012,7 @@ fort_16th = {
 			has_building = fort_15th
 		}
 		modifier = {
-			factor = 1.667
+			factor = 3.2
 			OR = {
 				has_terrain = forest
 				has_terrain = hills
@@ -1021,7 +1022,7 @@ fort_16th = {
 			}
 		}
 		modifier = {
-			factor = 2.5
+			factor = 5
 			has_terrain = mountain
 		}
 		modifier = {
@@ -1055,7 +1056,7 @@ naval_battery = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -1391,7 +1392,7 @@ grand_shipyard = {
 	}
 	
 	ai_will_do = {
-		factor = 0.3
+		factor = 0
 		modifier = {
 			factor = 1.2
 			NOT = { has_owner_accepted_culture = yes }
@@ -1540,12 +1541,12 @@ training_fields = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 10
 			has_building = soldier_households
 		}
 		modifier = {
 			factor = 0
-			NOT = { num_free_building_slots = 2 }
+			NOT = { num_free_building_slots = 1 }
 			NOT = { trade_goods = gold }
 			NOT = { has_building = barracks }
 			NOT = {
@@ -1590,7 +1591,7 @@ fort_17th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 10
+		factor = 5
 		modifier = {
 			factor = 25
 			is_capital = yes
@@ -1650,7 +1651,7 @@ fort_17th = {
 			}
 		}
 		modifier = {
-			factor = 1.667
+			factor = 3.2
 			OR = {
 				has_terrain = forest
 				has_terrain = hills
@@ -1660,7 +1661,7 @@ fort_17th = {
 			}
 		}
 		modifier = {
-			factor = 2.5
+			factor = 5
 			has_terrain = mountain
 		}
 		modifier = {
@@ -1814,13 +1815,18 @@ counting_house = {
 			factor = 0.75
 			NOT = { base_production = 4 }
 			OR = {
-				trade_goods = grain
 				trade_goods = naval_supplies
+				trade_goods = wool
+				trade_goods = tropical_wood
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				trade_goods = grain
 				trade_goods = fish
 				trade_goods = livestock
 				trade_goods = wine
-				trade_goods = wool
-				trade_goods = tropical_wood
 			}
 		}
 		modifier = {
@@ -1932,7 +1938,7 @@ town_hall = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 0.1
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -2047,7 +2053,7 @@ drydock = {
 	}	
 	
 	ai_will_do = {
-		factor = 0.8
+		factor = 0
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -2133,7 +2139,7 @@ conscription_center = {
 	}
 	
 	ai_will_do = {
-		factor = 0.55
+		factor = 2
 		modifier = {
 			factor = 0.8
 			has_port = yes
@@ -2207,7 +2213,7 @@ fort_18th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 10
+		factor = 5
 		modifier = {
 			factor = 25
 			is_capital = yes
@@ -2269,7 +2275,7 @@ fort_18th = {
 			}
 		}
 		modifier = {
-			factor = 1.667
+			factor = 3.2
 			OR = {
 				has_terrain = forest
 				has_terrain = hills
@@ -2279,7 +2285,7 @@ fort_18th = {
 			}
 		}
 		modifier = {
-			factor = 2.5
+			factor = 5
 			has_terrain = mountain
 		}
 		modifier = {
@@ -2799,7 +2805,7 @@ ramparts = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
 	ai_will_do = {
-		factor = 5
+		factor = 0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -2913,7 +2919,7 @@ soldier_households = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 10
 			OR = {
 				trade_goods = grain
 				trade_goods = fish
@@ -3004,7 +3010,7 @@ impressment_offices = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
 	ai_will_do = {
-		factor = 1.5
+		factor = 
 		modifier = {
 			factor = 0.1
 			NOT = {
@@ -3118,7 +3124,7 @@ state_house = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.1
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }

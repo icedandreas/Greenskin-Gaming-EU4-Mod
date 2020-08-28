@@ -1141,7 +1141,7 @@ country_event = {
 						}
 					}
 				}
-				add_army_professionalism = 1
+				add_army_professionalism = 0.01
 				add_mil_power = -50
 			}
 			
