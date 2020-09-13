@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = hannoverian
+religion = catholic
+technology_group = western
+capital = 81	# Kassel
+
+1377.1.1 = {
+	monarch = {
+		name = "Jérôme"
+		dynasty = "Bonaparte"
+		culture = sardinian #Corsican
+		religion = catholic
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
