@@ -5,4 +5,4 @@ tags={
 picture="thumbnail.png"
 name="Greenskin_Gaming"
 supported_version="1.30.4"
-path="mod/Greenskin_Gaming"
+path="mod/Greenskin_Gaming_global"
