@@ -1487,10 +1487,6 @@ english_monarchy_legacy = {
 	ai = {
 		factor = 5
 	}
-
-	custom_attributes = {
-		blocked_call_diet = yes
-	}
 }
 
 #Special for Mamluks

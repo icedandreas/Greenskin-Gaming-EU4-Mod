@@ -1,4 +1,5 @@
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
+HRE_HERETIC_PENALTY = 0.00
 NDefines.NCountry.PS_IMPROVE_PROVINCE_BASE = 45
 NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 7
 NDefines.NMilitary.CAVALRY_SPEED = 1.05
@@ -22,8 +23,6 @@ NDefines.NAI.COLONY_BUDGET_FRACTION = 0.4
 --NDefines.NAI.FORT_BUDGET_FRACTION = 0.5 -- AI will spend a maximum of this fraction of monthly income on forts
 NDefines.NAI.REGIMENTS_PER_GENERAL = 20
 NDefines.NAI.MIN_SHIPS_FOR_ADMIRAL = 25
-NDefines.NAI.DEVELOPMENT_CAP_BASE = 50 -- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
-NDefines.NAI.DEVELOPMENT_CAP_MULT = 10
 NDefines.NAI.EDICT_VALUE_THRESHOLD = 20
 NDefines.NAI.EDICT_VALUE_THRESHOLD_MULTIPLY_DEFICIT	= 2	--Change to above threshold in case of running deficit
 NDefines.NAI.EDICT_VALUE_THRESHOLD_MULTIPLY_LOW_INCOME = 1.5	--Change to above threshold in case of low income

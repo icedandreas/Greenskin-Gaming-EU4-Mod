@@ -3,5 +3,5 @@ tags={
 	"Balance"
 }
 picture="thumbnail.png"
-name="Greenskin Gaming"
+name="Greenskin Gaming global"
 supported_version="1.30.4"

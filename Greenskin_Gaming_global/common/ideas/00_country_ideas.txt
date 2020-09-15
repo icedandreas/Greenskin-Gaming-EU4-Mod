@@ -414,7 +414,7 @@ NED_ideas = {
 
 DAN_ideas = {
 	start = {
-		ship_durability = 0.05
+		land_morale = 0.10
 		global_tax_modifier = 0.10
 	}
 	
@@ -448,7 +448,8 @@ DAN_ideas = {
 		naval_forcelimit_modifier = 0.5
 	}
 	den_danske_lov = {
-		global_unrest = -1
+		trade_steering = 0.20
+		trade_efficiency = 0.10
 	}
 }
 
@@ -949,13 +950,13 @@ VEN_ideas = {
 		galley_cost = -0.20
 	}
 	printing_industry = {
-		diplomats = 1
+		land_morale = 0.1
 	}
 	stato_da_mar = {
 		trade_efficiency = 0.10
 	}
 	state_inquisition = {
-		global_spy_defence = 0.3
+		diplomats = 1
 	}
 	conscription = {
 		naval_maintenance_modifier = -0.2
@@ -1147,7 +1148,7 @@ HAB_ideas = {
 	}
 	
 	bonus = {
-		heir_chance = 0.50
+		global_manpower_modifier = 0.33
 	}
 	
 	trigger = {
@@ -1166,8 +1167,7 @@ HAB_ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	military_border = {
-		global_garrison_growth = 0.15
-		fort_maintenance_modifier = -0.10
+		ae_impact = -0.10
 	}
 	fugger_banks = {
 		inflation_reduction = 0.05
@@ -1184,7 +1184,7 @@ HAB_ideas = {
 	}
 	hofkriegsrat = {
 		reinforce_speed = 0.3
-		discipline = 0.03
+		discipline = 0.05
 	}
 }
 
@@ -2028,8 +2028,8 @@ KOR_ideas = {
 
 
 BOH_ideas = {
-	start = {
-		imperial_authority = 0.10
+	start = {	
+		global_manpower_modifier = 0.2
 		advisor_cost = -0.1
 	}
 	
@@ -2049,8 +2049,7 @@ BOH_ideas = {
 		legitimacy = 1
 	}
 	wagenburg = {
-		infantry_power = 0.10
-		shock_damage_received = -0.05
+		infantry_power = 0.20
 	}
 	letter_of_majesty = {
 		global_unrest = -1
@@ -2059,10 +2058,10 @@ BOH_ideas = {
 		technology_cost = -0.1
 	}
 	kutnohorian_deal = {
-		stability_cost_modifier = -0.10
+		production_efficiency = 0.1
 	}
 	czech_nationalism = {
-		same_culture_advisor_cost = -0.25
+		global_trade_goods_size_modifier = 0.15
 	}
 }
 
