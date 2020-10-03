@@ -15180,27 +15180,27 @@ SCA_ideas = {
 	}
 	free = yes
 	
-	SCA_swedish_steel = {
+	sca_swedish_steel = {
 		discipline = 0.05
 	}
-	SCA_norwegian_wood = {
+	sca_norwegian_wood = {
 		ship_durability = 0.10
 	}
-	SCA_danish_law = {
+	sca_danish_law = {
 		trade_efficiency = 0.10
 		trade_steering = 0.20
 	}
-	SCA_pioneer_spirit = {
+	sca_pioneer_spirit = {
 		colonists = 1
 		global_colonial_growth = 20
 	}
-	SCA_produktplakatet = {
+	sca_produktplakatet = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	SCA_natural_seamanship = {
+	sca_natural_seamanship = {
 		naval_morale = 0.20
 	}
-	SCA_write_the_new_sagas = {
+	sca_write_the_new_sagas = {
 		prestige = 1
 		army_tradition = 0.5
 	}
