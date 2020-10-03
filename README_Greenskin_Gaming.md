@@ -88,4 +88,7 @@ Ai choses better advisors.
 
 Ai is better at using edicts.
 
+Naples and Sweden are independant at game start.
+
+Gave Scandinavia a national ideaset.
  
