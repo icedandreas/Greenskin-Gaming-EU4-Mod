@@ -91,4 +91,10 @@ Ai is better at using edicts.
 Naples and Sweden are independant at game start.
 
 Gave Scandinavia a national ideaset.
+
+Maliki school dev cost reduction reduced to 5% from 10%
+
+Adaptive isolation from Shinto reduced to 5% dev cost reduction from 10%
+
+Parliament development of infrastructure reduced to 5% from 10%
  

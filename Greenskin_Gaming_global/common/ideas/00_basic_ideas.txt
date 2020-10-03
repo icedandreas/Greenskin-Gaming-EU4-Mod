@@ -191,7 +191,8 @@ spy_ideas = {
 	}	
 	
 	expanded_bureaucracy = {
-		possible_dip_policy = 1		
+		possible_dip_policy = 1
+		free_dip_policy = 1	
 	}
 
 	isolated_market = {
@@ -199,7 +200,7 @@ spy_ideas = {
 	}
 
 	royal_advisors = {
-		free_dip_policy = 1
+		advisor_cost = -0.10
 	}
 	
 	state_propaganda = {
@@ -700,7 +701,6 @@ quantity_ideas = {
 	}
 	the_old_and_infirm = {
 		land_maintenance_modifier = -0.05
-		drill_gain_modifier = 0.40
 	}
 	camp_followers = {
 		global_supply_limit_modifier = 0.33
@@ -799,19 +799,19 @@ administrative_ideas = {
 	}
 
 	organised_mercenary_payment = {
-		mercenary_cost = -0.25
+		mercenary_cost = -0.35
 	}
 	adaptability = {
 		core_creation = -0.25
 	}
 	benefits_for_mercenaries = {
-		merc_maintenance_modifier = -0.15
+		merc_maintenance_modifier = -0.20
 	}
 	bookkeeping = {
 		interest = -0.5
 	}
 	organised_mercenary_recruitment = {
-		mercenary_manpower = 0.25
+		mercenary_manpower = 0.50
 	}
 	administrative_efficiency_idea = {
 		advisor_pool = 1
@@ -848,7 +848,7 @@ influence_ideas = {
 		diplomatic_annexation_cost = -0.25
 	}
 	buffer_states = {
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 2
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 2
@@ -857,7 +857,7 @@ influence_ideas = {
 		improve_relation_modifier = 0.2
 	}
 	flexible_negotiation = {
-		province_warscore_cost = -0.1
+		province_warscore_cost = -0.15
 	}
 
 	ai_will_do = {
