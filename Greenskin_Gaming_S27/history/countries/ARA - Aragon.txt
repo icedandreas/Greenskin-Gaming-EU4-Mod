@@ -42,7 +42,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Alfons"
 		monarch_name = "Alfons V"
-		dynasty = "de Trast�mara"
+		dynasty = "de Trastámara"
 		birth_date = 1396.1.1
 		death_date = 1458.6.27
 		claim = 95
@@ -55,7 +55,7 @@ add_army_professionalism = 0.05
 1416.4.2 = {
 	monarch = {
 		name = "Alfons V"
-		dynasty = "de Trast�mara"
+		dynasty = "de Trastámara"
 		birth_date = 1396.1.1
 		adm = 2
 		dip = 4
@@ -69,7 +69,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Estrella"
 		monarch_name = "Estrella II"
-		dynasty = "de Trast�mara"
+		dynasty = "de Trastámara"
 		birth_date = 1420.6.29
 		death_date = 1479.1.20
 		claim = 95
@@ -80,7 +80,7 @@ add_army_professionalism = 0.05
 	queen = {
 		country_of_origin = CAS
 		name = "Maria"
-		dynasty = "de Trast�mara"
+		dynasty = "de Trastámara"
 		birth_date = 1401.9.14
 		death_date = 1458.9.7
 		female = yes
@@ -90,7 +90,7 @@ add_army_professionalism = 0.05
 	}
 }
 
-1443.1.1 = { leader = {	name = "Bernat de Vilamar�"	type = admiral	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1463.9.1 } }
+1443.1.1 = { leader = {	name = "Bernat de Vilamará"	type = admiral	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1463.9.1 } }
 
 1458.6.29 = {
 	monarch = {
