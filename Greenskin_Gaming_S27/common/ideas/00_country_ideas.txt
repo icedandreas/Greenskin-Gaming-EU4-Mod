@@ -1061,7 +1061,7 @@ POR_ideas = {
 	}
 	
 	bonus = {
-		global_tariffs = 0.20
+		infantry_power = 0.15
 	}
 	
 	trigger = {
@@ -1090,7 +1090,7 @@ POR_ideas = {
 		yearly_absolutism = 0.5
 	}
 	por_royal_military_academy = {
-		defensiveness = 0.1
+		discipline = 0.05
 		artillery_power = 0.1
 	}
 }
@@ -2337,10 +2337,10 @@ ETH_ideas = {
 		prestige = 1
 	}
 	nagusa_negast = {
-		heir_chance = 0.5
+		land_morale = 0.15
 	}
 	hostile_borders = {
-		defensiveness = 0.20
+		global_manpower_modifier = 0.20
 	}
 	diplomatic_demeanor = {
 		diplomatic_reputation = 1

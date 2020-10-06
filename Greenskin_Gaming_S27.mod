@@ -3,6 +3,6 @@ tags={
 	"Balance"
 }
 picture="thumbnail.png"
-name="Greenskin_Gaming_global"
+name="Greenskin_Gaming_S27"
 supported_version="1.30.4"
-path="mod/Greenskin_Gaming_global"
+path="mod/Greenskin_Gaming_S27"

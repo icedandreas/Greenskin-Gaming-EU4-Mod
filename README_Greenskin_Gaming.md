@@ -52,7 +52,7 @@ Going bankrupt will now destroy all buildings made in the last 7 years, up from 
 
 Estate privilege prime herding rights has been removed.
 
-Prussian morale reduced to 10% from 20%
+Changes the NI's of a few nations.
 
 Prussian government penalty to government capacity reduced to -25% from -50%.
 
@@ -80,8 +80,6 @@ Ai will now start having more cannons from mil tech 16 instead of from mil tech 
 
 Ai can now use between 0-100% cav in their armies. Changed from 5-50%
 
-Ai can now dev to 50. Up from 10.
-
 Ai improvements heavily inspired by "BetterAI" and "Difficulty and AI"
 
 Ai choses better advisors.
@@ -97,4 +95,5 @@ Maliki school dev cost reduction reduced to 5% from 10%
 Adaptive isolation from Shinto reduced to 5% dev cost reduction from 10%
 
 Parliament development of infrastructure reduced to 5% from 10%
- 
+
+Added Denmark to the HRE.
