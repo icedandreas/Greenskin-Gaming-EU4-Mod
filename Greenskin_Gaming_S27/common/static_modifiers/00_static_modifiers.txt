@@ -558,6 +558,8 @@ ai_nation = {
 	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
 	advisor_pool = 1
 	sailors_recovery_speed = 0.25
+	idea_cost = -0.1
+	technology_cost = -0.1
 }
 
 

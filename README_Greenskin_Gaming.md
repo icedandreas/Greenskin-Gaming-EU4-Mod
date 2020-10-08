@@ -97,3 +97,9 @@ Adaptive isolation from Shinto reduced to 5% dev cost reduction from 10%
 Parliament development of infrastructure reduced to 5% from 10%
 
 Added Denmark to the HRE.
+
+Disinherit cost has been reduced to -25 from -50
+
+Renovatio emperii chain has been removed.
+
+Ewiger landfriede no longer makes it impossible to have internal HRE war.
