@@ -16,7 +16,7 @@ Orthodox icon of pancreator dev cost reduction reduced to -5% from -10%.
 
 +10% dev cost for provinces with +1 defense, +20% dev cost for provinces with +2 defense.
 
-Climates that give +1 attrition has +5% dev cost, provinces with +2 attrition has +10% dev cost.
+Climates that give +1 attrition has +2.5% dev cost, provinces with +2 attrition has +5% dev cost.
 
 All instances of dev cost reduction in Ni's have been replaced with build cost reduction at a 1 to 1.5 ratio. (-10% dev cost -> -15% build cost).
 
