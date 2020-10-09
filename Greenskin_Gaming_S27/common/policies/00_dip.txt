@@ -1,52 +1,3 @@
-protection_fee = {
-	monarch_power = DIP
-
-	potential = {
-		adm_tech = 5
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 1
-		}
-	}
-	
-	vassal_income = 0.25
-
-	ai_will_do = {
-		factor = 0.01
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}	
-		modifier = {
-			factor = 100
-			vassal = 1
-		}
-		modifier = {
-			factor = 100
-			vassal = 2
-		}
-	}
-
-}
-
 spirits_act = {
 	monarch_power = DIP
 
@@ -91,7 +42,7 @@ soft_power = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 5
+		adm_tech = 10
 	}
 	
 	allow = {
@@ -112,11 +63,11 @@ soft_power = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 1
+		amount = 3
 		}
 	}
 	
-	diplomatic_upkeep = 1
+	merchants = 1
 	
 	ai_will_do = {
 		factor = 0.8		
@@ -194,7 +145,7 @@ new_world_act = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 7
+		adm_tech = 5
 	}
 	
 	allow = {
@@ -215,7 +166,7 @@ new_world_act = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 2
+		amount = 1
 		}
 	}
 	
@@ -265,44 +216,6 @@ greasing_hands = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 7
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 2
-		}
-		
-	}
-	
-	improve_relation_modifier = 0.15
-	
-	ai_will_do = {
-		factor = 0.8		
-	}	
-}
-
-
-piracy_act = {
-	monarch_power = DIP
-
-	potential = {
 		adm_tech = 10
 	}
 	
@@ -325,6 +238,44 @@ piracy_act = {
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 3
+		}
+		
+	}
+	
+	improve_relation_modifier = 0.15
+	
+	ai_will_do = {
+		factor = 0.8		
+	}	
+}
+
+
+piracy_act = {
+	monarch_power = DIP
+
+	potential = {
+		adm_tech = 14
+	}
+	
+	allow = {
+		calc_true_if = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = spy_ideas
+		full_idea_group = influence_ideas
+		amount = 4
 		}
 		
 	}
@@ -371,7 +322,7 @@ justified_agression = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 10
+		adm_tech = 5
 	}
 	
 	allow = {
@@ -392,7 +343,7 @@ justified_agression = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 3
+		amount = 1
 		}
 		
 	}
@@ -449,56 +400,11 @@ the_integration_act = {
 	}
 }
 
-bread_and_games = {
-	monarch_power = DIP
-
-	potential = {
-		adm_tech = 14
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 4
-		}
-		
-	}
-	
-	reduced_liberty_desire = 15
-	
-	ai_will_do = {
-		factor = 0.01
-		modifier = {
-			factor = 100
-			vassal = 1
-		}
-		modifier = {
-			factor = 100
-			vassal = 2
-		}
-	}
-}
-
 new_world_effort = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 14
+		adm_tech = 7
 	}
 	
 	allow = {
@@ -519,7 +425,7 @@ new_world_effort = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 4
+		amount = 2
 		}
 		
 	}
@@ -554,43 +460,6 @@ new_world_effort = {
 			}
 		}
 	}
-}
-
-silver_tongue = {
-	monarch_power = DIP
-
-	potential = {
-		adm_tech = 14
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 4
-		}
-		
-	}
-	
-	diplomatic_reputation = 2
-	
-	ai_will_do = {
-		factor = 0.8		
-	}	
 }
 
 merchant_fleet = {
@@ -664,7 +533,7 @@ efficient_merchants = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 18
+		adm_tech = 14
 	}
 	
 	allow = {
@@ -685,7 +554,7 @@ efficient_merchants = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 5
+		amount = 4
 		}
 		
 	}
@@ -740,7 +609,7 @@ all_can_serve = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 22
+		adm_tech = 14
 	}
 	
 	allow = {
@@ -761,7 +630,7 @@ all_can_serve = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 6
+		amount = 4
 		}
 		
 	}
@@ -806,7 +675,7 @@ ship_commisars = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 22
+		adm_tech = 18
 	}
 	
 	allow = {
@@ -827,7 +696,7 @@ ship_commisars = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 6
+		amount = 5
 		}
 		
 	}
@@ -872,6 +741,44 @@ lowered_standards = {
 	monarch_power = DIP
 
 	potential = {
+		adm_tech = 7
+	}
+	
+	allow = {
+		calc_true_if = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = spy_ideas
+		full_idea_group = influence_ideas
+		amount = 2
+		}
+		
+	}
+	
+	global_trade_goods_size_modifier = 0.1
+	
+	ai_will_do = {
+		factor = 1.5		
+	}
+
+}
+
+oak_fleets = {
+	monarch_power = DIP
+
+	potential = {
 		adm_tech = 22
 	}
 	
@@ -894,44 +801,6 @@ lowered_standards = {
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
 		amount = 6
-		}
-		
-	}
-	
-	global_trade_goods_size_modifier = 0.1
-	
-	ai_will_do = {
-		factor = 1.5		
-	}
-
-}
-
-oak_fleets = {
-	monarch_power = DIP
-
-	potential = {
-		adm_tech = 26
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 7
 		}
 		
 	}
@@ -976,7 +845,7 @@ trade_deals = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 26
+		adm_tech = 22
 	}
 	
 	allow = {
@@ -997,7 +866,7 @@ trade_deals = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 7
+		amount = 6
 		}
 		
 	}
@@ -1081,7 +950,7 @@ dominant_navy = {
 	monarch_power = DIP
 
 	potential = {
-		adm_tech = 29
+		adm_tech = 26
 	}
 	
 	allow = {
@@ -1102,7 +971,7 @@ dominant_navy = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 8
+		amount = 7
 		}
 		
 	}
