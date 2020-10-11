@@ -103,3 +103,5 @@ Disinherit cost has been reduced to -25 from -50
 Renovatio emperii chain has been removed.
 
 Ewiger landfriede no longer makes it impossible to have internal HRE war.
+
+Added an event for CAS/SPA with mtth of 10 years. The event gives an option for a female heir.
