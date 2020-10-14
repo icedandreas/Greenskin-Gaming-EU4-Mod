@@ -107,3 +107,5 @@ Ewiger landfriede no longer makes it impossible to have internal HRE war.
 Added an event for CAS/SPA with mtth of 10 years. The event gives an option for a female heir.
 
 All government ranks can change focus every 10 years.
+
+Removed the Burgundian succession crisis modifier from Burgundy.
