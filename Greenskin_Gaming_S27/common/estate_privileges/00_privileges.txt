@@ -1409,12 +1409,13 @@ estate_church_inwards_perfection = {
 	on_granted = {
 	}
 	modifier_by_land_ownership = {
-		development_cost = -0.00
+		production_efficiency = 0.2
 	}
 	penalties = {
 		stability_cost_to_declare_war = 0
 	}
 	benefits = {
+		development_cost = -0.05
 	}
 	ai_will_do = {
 		factor = 1
