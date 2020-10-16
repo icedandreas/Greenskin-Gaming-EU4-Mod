@@ -88,7 +88,7 @@ Ai is better at using edicts.
 
 Naples and Sweden are independant at game start.
 
-Gave Scandinavia a national ideaset.
+Gave Scandinavia a national ideaset and let them be formed at amd 10.
 
 Maliki school dev cost reduction reduced to 5% from 10%
 
