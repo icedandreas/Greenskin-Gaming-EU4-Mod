@@ -109,3 +109,5 @@ Added an event for CAS/SPA with mtth of 10 years. The event gives an option for 
 All government ranks can change focus every 10 years.
 
 Removed the Burgundian succession crisis modifier from Burgundy.
+
+Colonial nations can form new world tags while being a subject.

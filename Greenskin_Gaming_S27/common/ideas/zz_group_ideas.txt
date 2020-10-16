@@ -41,7 +41,7 @@ client_ideas = {
 
 colonial_ideas = {
 	start = {
-		development_cost = -0.1
+		production_efficiency = 0.1
 		no_religion_penalty = yes
 	}
 	
@@ -708,7 +708,7 @@ BAV_ideas = {
 	}
 	
 	bonus = {
-		development_cost = -0.1
+		build_cost = -0.15
 	}
 	
 	trigger = {
@@ -1350,7 +1350,7 @@ andean_ideas = {
 		production_efficiency = 0.10
 	}
 	andean_idea_5 = {
-		development_cost = -0.1
+		build_cost = -0.15
 	}
 	andean_idea_6 = {
 		defensiveness = 0.1
@@ -1915,7 +1915,7 @@ mayan_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	mayan_building_traditions = {
-		development_cost = -0.1
+		build_cost = -0.15
 	}
 	mayan_ancient_feuds = {
 		ae_impact = -0.10
@@ -2255,7 +2255,7 @@ congolese_minor_ideas = {
 caspian_ideas = {
 	start = {
 		merc_maintenance_modifier = -0.15
-		development_cost = -0.1
+		build_cost = -0.15
 	}
 	
 	bonus = {
@@ -2482,7 +2482,7 @@ garjati_ideas = {
 		global_manpower_modifier = 0.15
 	}
 	garjati_extend_tanks_and_reservoirs = {
-		development_cost = -0.1
+		build_cost = -0.15
 	}
 	garjati_jungle_warfare = {
 		infantry_power = 0.1
