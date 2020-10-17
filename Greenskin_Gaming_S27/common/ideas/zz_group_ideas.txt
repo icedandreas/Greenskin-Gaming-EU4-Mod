@@ -819,12 +819,12 @@ german_ideas = {
 
 malayan_ideas = {
 	start = {
-		trade_steering = 0.1
-		global_ship_cost = -0.1
+		global_trade_power = 0.15
+        land_morale = 0.1
 	}
 	
 	bonus = {
-		naval_morale = 0.15
+		ship_durability = 0.1
 	}
 	
 	trigger = {
@@ -837,26 +837,27 @@ malayan_ideas = {
 	free = yes
 	
 	indian_ocean_trade = {
-		merchants = 1
+		global_colonial_growth = 20
 	}
 	sufi_legacy = {
-		tolerance_heathen = 2
+		galley_power = 0.25
 	}
 	mal_spice_islands = {
-		production_efficiency = 0.1
+		trade_efficiency = 0.15
 	}
 	classical_malay = {
-		idea_cost = -0.05
+		own_coast_naval_combat_bonus = 1
+        naval_morale = 0.15
 	}
 	trading_fleets = {
-		naval_maintenance_modifier = -0.2
-		sailor_maintenance_modifer = -0.1
+		merchants = 1
+        ship_power_propagation = 0.2
 	}
 	heirs_of_pasai = {
-		prestige = 1
+		trade_steering = 0.25
 	}
 	settle_the_islands = {
-		global_colonial_growth = 20
+		global_trade_goods_size_modifier = 0.1
 	}
 }
 

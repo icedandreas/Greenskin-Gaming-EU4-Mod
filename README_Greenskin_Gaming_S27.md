@@ -111,3 +111,13 @@ All government ranks can change focus every 10 years.
 Removed the Burgundian succession crisis modifier from Burgundy.
 
 Colonial nations can form new world tags while being a subject.
+
+Defender of the faith is always tier 5.
+
+All religions have the defender of the faith mechanic.
+
+All HRE members have -10% ae.
+
+Gave The Malaya group the ideas that the Malaya tag will have in 1.31. Note that this includes Brunei, Malacca and other tags in 1.30 as they share their ideas.
+
+Players in the HRE will be made Electers. (except for Hab I guess.). Still need to implement this. So not fully final patch.

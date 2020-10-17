@@ -1179,6 +1179,7 @@ muslim = {
 
 eastern = {
 
+	defender_of_faith = yes
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 58 80 }
 
@@ -1316,6 +1317,7 @@ eastern = {
 
 dharmic = {
 
+	defender_of_faith = yes
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
@@ -1392,6 +1394,7 @@ dharmic = {
 
 pagan = {
 
+	defender_of_faith = yes
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = { 83 96 }
 
@@ -1555,6 +1558,7 @@ pagan = {
 
 jewish_group = {
 
+	defender_of_faith = yes
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 106 107 }
 
@@ -1584,6 +1588,7 @@ jewish_group = {
 
 
 zoroastrian_group = {
+	defender_of_faith = yes
 	flag_emblem_index_range = { 110 110 }
 	zoroastrian = {
 		icon = 26
