@@ -118,6 +118,8 @@ All religions have the defender of the faith mechanic.
 
 All HRE members have -10% ae.
 
-Gave The Malaya group the ideas that the Malaya tag will have in 1.31. Note that this includes Brunei, Malacca and other tags in 1.30 as they share their ideas.
+Added the new National idea sets for the asian nations of 1.31 (didn't bother adding localization since next patch implements this into the base game.)
 
-Players in the HRE will be made Electers. (except for Hab I guess.). Still need to implement this. So not fully final patch.
+Players in the HRE are electors.
+
+Expanded the HRE to also include Italy.
