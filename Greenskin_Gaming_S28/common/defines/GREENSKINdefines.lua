@@ -1,7 +1,7 @@
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
 NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0.00
 NDefines.NCountry.PS_IMPROVE_PROVINCE_BASE = 40
-NDefines.NCountry.DISINHERIT_PRESTIGE_HIT = -25
+NDefines.NCountry.DISINHERIT_PRESTIGE_HIT = -40
 NDefines.NCountry.NAT_FOCUS_YEARS = 10							-- years before you can change focus again
 NDefines.NCountry.NAT_FOCUS_YEARS_RANK = 0
 NDefines.NEconomy.CARAVAN_POWER_MAX = 25

@@ -98,7 +98,7 @@ Parliament development of infrastructure reduced to 5% from 10%
 
 Added Denmark to the HRE.
 
-Disinherit cost has been reduced to -25 from -50
+Disinherit cost has been reduced to -40 from -50
 
 Renovatio emperii chain has been removed.
 
@@ -133,3 +133,5 @@ Caravan power reduced to 25 from 50.
 Debase max corruption reduced to 10% from 90%
 
 Removed interest from revanchism.
+
+Removed all revolts from 1444 in addition to the unrest in Uzbek.
