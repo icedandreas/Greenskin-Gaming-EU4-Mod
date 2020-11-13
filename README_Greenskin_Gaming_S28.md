@@ -123,3 +123,13 @@ Added the new National idea sets for the asian nations of 1.31 (didn't bother ad
 Players in the HRE are electors.
 
 Expanded the HRE to also include Italy.
+
+Removed pirates
+
+Nerfed Orthodox manpower to 20% from 33%
+
+Caravan power reduced to 25 from 50.
+
+Debase max corruption reduced to 10% from 90%
+
+Removed interest from revanchism.
