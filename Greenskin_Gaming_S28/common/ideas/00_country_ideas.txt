@@ -1061,7 +1061,7 @@ POR_ideas = {
 	}
 	
 	bonus = {
-		infantry_power = 0.15
+		colonists = 1
 	}
 	
 	trigger = {
@@ -1090,8 +1090,8 @@ POR_ideas = {
 		yearly_absolutism = 0.5
 	}
 	por_royal_military_academy = {
-		discipline = 0.05
-		artillery_power = 0.1
+		naval_morale = 0.15
+		artillery_fire = 1
 	}
 }
 

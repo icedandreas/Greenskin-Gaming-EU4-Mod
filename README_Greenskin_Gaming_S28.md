@@ -135,3 +135,7 @@ Debase max corruption reduced to 10% from 90%
 Removed interest from revanchism.
 
 Removed all revolts from 1444 in addition to the unrest in Uzbek.
+
+Players cannot use the humiliate rival CB against other players.
+
+Player CN's get (-25% FL, -25% manpower recovery, -50% naval FL, +20% dev cost, -25% sailors recovery, -100% mercenary manpower)
