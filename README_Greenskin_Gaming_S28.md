@@ -145,3 +145,7 @@ Players cannot use the humiliate rival CB against other players.
 Player CN's get (-25% FL, -25% manpower recovery, -50% naval FL, +20% dev cost, -25% sailors recovery, -100% mercenary manpower)
 
 Buffed the Hungarian black army mercs. Also added the +1 army tradition back to the event modifier.
+
+Splintered China and increased overall dev of the subcontinent.
+
+slightly buffed the upside of mandate and made it harder to tank (1/2 penalty from loans and being bankrupt, and no penalty from not holding the 3 important provinces and from devastation). Also reduced the penalty from losing the mandate.

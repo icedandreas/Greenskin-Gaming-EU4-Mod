@@ -1,5 +1,7 @@
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
 NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0.00
+NDefines.NDiplomacy.CELESTIAL_EMPIRE_MANDATE_PER_5_LOANS = -0.18
+NDefines.NDiplomacy.CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_DEVASTATION = 0
 NDefines.NCountry.PS_IMPROVE_PROVINCE_BASE = 40
 NDefines.NCountry.DISINHERIT_PRESTIGE_HIT = -40
 NDefines.NCountry.NAT_FOCUS_YEARS = 10							-- years before you can change focus again
