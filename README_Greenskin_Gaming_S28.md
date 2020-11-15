@@ -44,6 +44,10 @@ Removed Cossack estate that gave -15% dev cost for steppes.
 
 Removed the eastern privilege "inward perfection" that gave -15% dev cost.
 
+Removed cavalry from mercs except for a single 0.33 ratio company.
+
+Finishing Chivalric ideas grants a full cavalry width merc company.
+
 Removed cannons from mercs.
 
 Merc stack size is not capped at 40.
@@ -139,3 +143,5 @@ Removed all revolts from 1444 in addition to the unrest in Uzbek.
 Players cannot use the humiliate rival CB against other players.
 
 Player CN's get (-25% FL, -25% manpower recovery, -50% naval FL, +20% dev cost, -25% sailors recovery, -100% mercenary manpower)
+
+Buffed the Hungarian black army mercs. Also added the +1 army tradition back to the event modifier.

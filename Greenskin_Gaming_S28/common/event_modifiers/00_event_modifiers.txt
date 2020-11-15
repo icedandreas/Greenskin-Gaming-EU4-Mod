@@ -2952,6 +2952,7 @@ tur_janissary = {
 hun_black_army = {
 	land_forcelimit_modifier = -0.05
 	nobles_influence_modifier = -0.1
+	army_tradition = 1
 }
 
 mercenary_concessions = {

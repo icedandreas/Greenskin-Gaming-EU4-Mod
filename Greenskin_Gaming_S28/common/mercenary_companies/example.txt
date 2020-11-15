@@ -58,16 +58,31 @@ merc__local_grand_company = {
     # No home province means local mercenary company
 }
 
+#Reward for full chivalric
 merc__local_nobles_company = {
     regiments_per_development = 0.05
     cavalry_weight = 1
     artillery_weight = 0.0
     cavalry_cap = 40
-    cost_modifier = 0.75
+    cost_modifier = 0.5
     trigger = {
-        total_development = 150
+        full_idea_group = aristocracy_ideas
+    }
+    modifier = {
+		cavalry_power = 0.2
     }
     # No home province means local mercenary company
+}
+
+merc__mixed_army = {
+	regiments_per_development = 0.04
+	cavalry_weight = 0.33
+	cavalry_cap = 14
+    cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+	trigger = {
+		total_development = 150
+	}
 }
 
 merc__local_artillery_company = {

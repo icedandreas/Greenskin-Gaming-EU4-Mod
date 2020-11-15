@@ -204,6 +204,7 @@
  merc__local_free_company:0 "Free Company"
  merc__local_grand_company:0 "Grand Company"
  merc__local_nobles_company:0 "Nobles Company"
+ merc__mixed_army:0 "Mixed Warfare Company"
  merc__local_artillery_company:0 "Artillery Company"
  merc__local_independent_army:0 "Independent Army"
  tyw_events.9.tt1:0 "Members of our League will be able to recruit the mercenary §YRedshanks§!."
