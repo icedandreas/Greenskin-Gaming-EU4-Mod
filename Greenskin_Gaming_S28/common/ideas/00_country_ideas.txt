@@ -2081,10 +2081,10 @@ ITA_ideas = {
 	free = yes
 	
 	no_a_geographical_construct = {
-		stability_cost_modifier = -0.10
+		discipline = 0.05
 	}
 	tradition_of_the_legion = {
-		infantry_power = 0.15
+		infantry_power = 0.20
 	}
 	mare_nostrum = {
 		galley_cost = -0.15

@@ -40,9 +40,9 @@ reworked some ideas.
 
 reworked policies and how policies work.
 
-Removed Cossack estate that gave -15% dev cost for steppes.
+Changed Cossack estate that gave -15% dev cost for steppes, to instead give +scaling FL and -tax.
 
-Removed the eastern privilege "inward perfection" that gave -15% dev cost.
+Changed the eastern privilege "inward perfection" that gave -15% dev cost, to instead give scaled production effeciency.
 
 Removed cavalry from mercs except for a single 0.33 ratio company.
 
@@ -50,13 +50,13 @@ Finishing Chivalric ideas grants a full cavalry width merc company.
 
 Removed cannons from mercs.
 
-Merc stack size is not capped at 40.
+Merc stack size is now capped at 40.
 
 Going bankrupt will now destroy all buildings made in the last 7 years, up from 5.
 
 Estate privilege prime herding rights has been removed.
 
-Changes the NI's of a few nations.
+Changes the NI's of some nations (Portugal, Ethiopia, Austria, Bohemia, Denmark, Scandinavia, Prussia, Italy)
 
 Prussian government penalty to government capacity reduced to -25% from -50%.
 

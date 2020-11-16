@@ -1703,30 +1703,13 @@ estate_cossacks_exploration_expedition = {
 	loyalty = 0.05
 	influence = 0.05
 	is_valid = {
-		always = no
-	}
-	on_granted = {
-		custom_tooltip = estate_cossacks_exploration_expedition_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = { has_terrain = steppe }
-				add_province_modifier = {
-					name = estate_cossacks_exploration_expedition_mod
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_cossacks_exploration_expedition_mod_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = { has_province_modifier = estate_cossacks_exploration_expedition_mod }
-				remove_province_modifier = estate_cossacks_exploration_expedition_mod
-			}
-		}
+		always = yes
 	}
 	penalties = {
+	}
+	modifier_by_land_ownership = {
+		global_tax_modifier = -0.25
+		land_forcelimit_modifier = 0.3
 	}
 	ai_will_do = {
 		factor = 1
