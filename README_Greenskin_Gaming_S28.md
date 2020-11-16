@@ -149,3 +149,5 @@ Buffed the Hungarian black army mercs. Also added the +1 army tradition back to 
 Splintered China and increased overall dev of the subcontinent.
 
 slightly buffed the upside of mandate and made it harder to tank (1/2 penalty from loans and being bankrupt, and no penalty from not holding the 3 important provinces and from devastation). Also reduced the penalty from losing the mandate.
+
+Added China as a formable with their own idea set.

@@ -15388,3 +15388,44 @@ MAJ_ideas = {
         advisor_cost = -0.15
     }
 }
+
+CHN_ideas = {
+    start = {
+        global_manpower_modifier = 0.5
+        global_tax_modifier = 0.1
+    }
+   
+    bonus = {
+        land_forcelimit_modifier = 0.5
+    }
+   
+    free = yes        #will be added at load.
+   
+    trigger = {
+        tag = CHN
+    }
+    chn_idea1 = {
+        core_creation = -0.25
+    }
+    chn_idea2 = {
+        province_warscore_cost = -0.20
+    }
+    chn_idea3 = {
+        infantry_power = 0.10
+		infantry_cost = -0.15
+    }
+    chn_idea4 = {
+        global_prov_trade_power_modifier = 0.25
+    }
+    chn_idea5 = {
+        army_tradition = 0.5
+		prestige = 1
+    }
+    chn_idea6 = {
+        land_morale = 0.1
+		defensiveness = 0.2
+    }
+    chn_idea7 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+}
