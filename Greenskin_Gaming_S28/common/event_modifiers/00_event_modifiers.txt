@@ -11281,3 +11281,10 @@ additional_policies = {
 	free_mil_policy = 1
 }
 
+breadbasket_secured = {
+	manpower_recovery_speed = 0.15
+}
+
+fronts_are_safe = {
+	administrative_efficiency = 0.05
+}

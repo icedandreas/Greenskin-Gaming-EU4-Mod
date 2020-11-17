@@ -14,6 +14,8 @@ Universities reduced to -10% dev cost reduction from -20% dev cost reduction.
 
 Orthodox icon of pancreator dev cost reduction reduced to -5% from -10% as well as build cost reduction reduced to 5% from 10%
 
+Expand bureaucracy decree's dev cost reduction reduced to -5% from -10%
+
 +10% dev cost for provinces with +1 defense, +20% dev cost for provinces with +2 defense.
 
 Climates that give +1 attrition has +2.5% dev cost, provinces with +2 attrition has +5% dev cost.
