@@ -150,7 +150,7 @@ country_event = {
 		ai = yes
 		treasury = 200
 		is_at_war = no
-		current_income_balance = 2
+		current_income_balance = 5
 		NOT = {
 			num_of_loans = 3
 		}

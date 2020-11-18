@@ -411,7 +411,7 @@ army_organiser = {
 	monarch_power = MIL
 	
 	# Bonus
-	land_forcelimit_modifier = 0.10
+	land_forcelimit_modifier = 0.15
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -481,7 +481,7 @@ recruitmaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	global_manpower_modifier = 0.10
+	global_manpower_modifier = 0.15
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -507,7 +507,9 @@ fortification_expert = {
 	monarch_power = MIL
 	
 	# Bonus
-	defensiveness = 0.2
+	defensiveness = 0.1
+	siege_ability = 0.1
+	fort_maintenance_modifier = -0.10
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -526,7 +528,7 @@ grand_captain = {
 	monarch_power = MIL
 	
 	# Bonus
-	land_maintenance_modifier = -0.10
+	land_maintenance_modifier = -0.15
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 

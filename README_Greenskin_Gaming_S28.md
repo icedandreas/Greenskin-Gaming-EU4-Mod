@@ -88,7 +88,7 @@ Ai can now use between 0-100% cav in their armies. Changed from 5-50%
 
 Ai improvements heavily inspired by "BetterAI" and "Difficulty and AI"
 
-Ai choses better advisors.
+Ai choses better advisors. Bad mil advisors are also slightly buffed.
 
 Ai is better at using edicts.
 

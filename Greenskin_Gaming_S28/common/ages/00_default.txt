@@ -183,7 +183,7 @@ age_of_discovery = {
 				tag = TUR
 			}
 			modifier = {
-				siege_ability = 0.33
+				siege_ability = 0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -595,7 +595,10 @@ age_of_absolutism = {
 				tag = NED
 			}
 			modifier = {
-				yearly_corruption = -0.2
+				global_ship_cost = -0.1
+				global_ship_recruit_speed = -0.10
+				ship_durability = 0.05
+				naval_morale = 0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -782,7 +785,7 @@ age_of_revolutions = {
 				tag = GBR
 			}
 			modifier = {
-				naval_maintenance_modifier = -0.33
+				artillery_fire = 1.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -804,7 +807,8 @@ age_of_revolutions = {
 				tag = HAB
 			}
 			modifier = {
-				diplomatic_reputation = 5
+				land_morale = 0.05
+				artillery_power = 0.1
 			}
 			ai_will_do = {
 				factor = 100
