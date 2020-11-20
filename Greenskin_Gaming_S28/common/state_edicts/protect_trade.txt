@@ -15,7 +15,7 @@ edict_protect_trade = {
 	
 	
 	ai_will_do = {
-		factor = 5
+		factor = 4
 		modifier = {
 			factor = 0
 			all_province_in_state = {
@@ -24,7 +24,7 @@ edict_protect_trade = {
 			}
 		}
 		modifier= {
-			factor = 10
+			factor = 11
 			#capital_trade_node = FROM
 			is_in_capital_area = yes
 			OR = {

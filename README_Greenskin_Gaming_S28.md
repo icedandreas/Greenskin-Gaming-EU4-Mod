@@ -2,7 +2,7 @@
 
 This is a mod for the game Europa Universalis 4 created for Greenskin Gaming.
 The intention for the mod is to make the game better for a multiplayer setting and to add small balance changes.
-Inspired by Badook_china_qol, BetterAI, MJLMOD, Warmonger, difficulty and AI.
+Inspired by Badook_china_qol, BetterAI, MJLMOD, Warmonger, difficulty and AI, Hashmod, Purplemod.
 
 # Changelog
 
@@ -30,9 +30,9 @@ Encourage development edict has been removed.
 
 base cost of improving dev has been reduced to 40 from 50.
 
-Added 1 additional possible policy of each type.
+Added 1 additional possible policy of each type at admin tech 10.
 
-Granted 1 additional free policy of each type.
+Granted 1 additional free policy of each type at admin tech 10.
 
 Cavalry movement speed increased by 50%.
 
@@ -62,7 +62,7 @@ Changes the NI's of some nations (Portugal, Ethiopia, Austria, Bohemia, Denmark,
 
 Prussian government penalty to government capacity reduced to -25% from -50%.
 
-Militarized society no longer gives discipline.
+Militarized society no longer gives discipline, but instead gives 20% force limit.
 
 Changed all instances of cavalry ratio to reduced cavalry cost at a factor of 0.5 (With the exception of Cossacks, they get nothing as they are already OP).
 
@@ -153,3 +153,23 @@ Splintered China and increased overall dev of the subcontinent.
 slightly buffed the upside of mandate and made it harder to tank (1/2 penalty from loans and being bankrupt, and no penalty from not holding the 3 important provinces and from devastation). Also reduced the penalty from losing the mandate.
 
 Added China as a formable with their own idea set.
+
+1 War exhaustion gives 0.04 corruption instead of 3% coring cost.
+
+Base tax income per month increased to 2 from 1.
+
+Tsardom manpower reduced to 15% from 20%.
+
+Streltsky regiment gain reduced to 15% from 20% of FL.
+
+Base drill increased by 50%.
+
+Can change policies after 5 years instead of 10.
+
+No prestige hit when declining call to arms.
+
+Costs no prestige to abandon union.
+
+Forts can no longer be placed next to another fort, with the exception of the capital.
+
+Monarch minimum skill from natural occurence increased to 1 from 0 to reduce ruler RNG.

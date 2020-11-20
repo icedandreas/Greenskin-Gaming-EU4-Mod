@@ -3343,7 +3343,10 @@ NAJ_ideas = {
 	}
 	
 	trigger = {
-		tag = NAJ
+		OR = {
+			tag = NAJ
+			tag = ARB
+		}
 	}
 	free = yes		#will be added at load
 	
@@ -3354,16 +3357,20 @@ NAJ_ideas = {
 		missionaries = 1
 	}
 	ships_of_the_desert = {
-		global_trade_power = 0.1
+		global_trade_power = 0.20
 	}
 	bedouin_raiders = {
 		hostile_attrition = 1.0
+		defensiveness = 0.20
 	}
 	arabian_horsemanship = {
 		cavalry_flanking = 0.5
+		cavalry_power = 0.20
+		cavalry_cost = -0.10
 	}
 	unite_the_tribes = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1
+		land_morale = 0.15
 	}
 	enforce_tawhid = {
 		tolerance_own = 2

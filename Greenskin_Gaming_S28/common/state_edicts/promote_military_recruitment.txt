@@ -15,15 +15,15 @@ edict_promote_military_recruitment = {
 	
 	
 	ai_will_do = {
-		factor = 5
+		factor = 4
 		modifier = {
-			factor = 4
+			factor = 2
 			any_province_in_state = {
 				base_manpower = 5
 			}
 		}
 		modifier = {
-			factor = 4
+			factor = 6
 			any_province_in_state = {
 				base_manpower = 10
 			}

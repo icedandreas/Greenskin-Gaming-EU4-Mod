@@ -14,11 +14,13 @@ aristocracy_ideas = {
 		leader_siege = 1
 		nobles_loyalty_modifier = 0.1
 		nomadic_tribes_loyalty_modifier = 0.1
+		movement_speed = 0.10
 	}
 	
 	noble_knights = {
 		cavalry_power = 0.10
 		cav_to_inf_ratio = 0.5
+		cavalry_cost = -0.1
 	}
 	military_traditions = {
 		mil_tech_cost_modifier  = -0.1
@@ -62,8 +64,8 @@ plutocracy_ideas = {
 	}
 
 	tradition_of_payment = {
-		mercenary_manpower = 0.10
-		mercenary_discipline = 0.025
+		mercenary_manpower = 0.25
+		mercenary_discipline = 0.05
 	}
 	abolished_serfdom = {
 		land_morale = 0.10
@@ -120,7 +122,7 @@ innovativeness_ideas = {
 		improve_relation_modifier = 0.25
 	}
 	critical_thinking = {
-		idea_cost = -0.05
+		idea_cost = -0.075
 	}
 
 	ai_will_do = {
@@ -141,7 +143,7 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.30
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 		free_adm_policy = 1
@@ -209,9 +211,10 @@ spy_ideas = {
 	
 	state_subsidies = {
 		production_efficiency = 0.10
+		global_own_trade_power = 0.15
 	}
 	taxation_of_imports = {
-		mercantilism_cost = -0.33
+		mercantilism_cost = -0.50
 	}
 
 	ai_will_do = {
@@ -272,11 +275,11 @@ defensive_ideas = {
 		leader_land_manuever = 1
 	}
 	regimental_system = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.075
 	}
 	defensive_mentality = {
 		defensiveness = 0.2
-		fort_maintenance_modifier = -0.1
+		fort_maintenance_modifier = -0.2
 	}
 	supply_trains = {
 		reinforce_speed = 0.33
@@ -794,7 +797,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		governing_capacity_modifier = 0.25
+		governing_capacity_modifier = 0.30
 		possible_policy = 1
 	}
 
@@ -802,10 +805,11 @@ administrative_ideas = {
 		mercenary_cost = -0.35
 	}
 	adaptability = {
-		core_creation = -0.25
+		core_creation = -0.30
 	}
 	benefits_for_mercenaries = {
 		merc_maintenance_modifier = -0.20
+		mercenary_discipline = 0.025
 	}
 	bookkeeping = {
 		interest = -0.5
@@ -817,7 +821,7 @@ administrative_ideas = {
 		advisor_pool = 1
 	}
 	civil_servants = {
-		adm_tech_cost_modifier = -0.1
+		technology_cost = -0.1
 	}
 
 	ai_will_do = {
@@ -841,14 +845,14 @@ influence_ideas = {
 	}
 	
 	additional_loyalist_recruitment = {
-		reduced_liberty_desire = 15
+		reduced_liberty_desire = 25
 	}
 	
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.25
 	}
 	buffer_states = {
-		diplomatic_upkeep = 2
+		diplomatic_upkeep = 3
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 2
@@ -857,7 +861,7 @@ influence_ideas = {
 		improve_relation_modifier = 0.2
 	}
 	flexible_negotiation = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.20
 	}
 
 	ai_will_do = {

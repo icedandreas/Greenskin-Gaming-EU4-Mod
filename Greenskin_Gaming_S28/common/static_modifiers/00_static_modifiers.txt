@@ -613,24 +613,24 @@ positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 }
 
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
-	global_trade_goods_size_modifier = -0.5
-	fire_damage_received = 0.5
-	shock_damage_received = 0.5
-	global_unrest = 5
-	mercenary_manpower = -0.5
-	global_manpower_modifier = -0.5
+	global_trade_goods_size_modifier = -0.1
+	fire_damage_received = 0.1
+	shock_damage_received = 0.1
+	global_unrest = 3
+	mercenary_manpower = -0.3
+	global_manpower_modifier = -0.3
 }
 
 lost_mandate_of_heaven = {
 	stability_cost_modifier = 0.5
 	global_unrest = 10
-	global_trade_goods_size_modifier = -0.25
-	fire_damage_received = 0.15
-	shock_damage_received = 0.15
+	global_trade_goods_size_modifier = -0.1
+	fire_damage_received = 0.1
+	shock_damage_received = 0.1
 	reduced_liberty_desire = -50
 	legitimacy = -1
-	mercenary_manpower = -0.25
-	global_manpower_modifier = -0.25
+	mercenary_manpower = -0.3
+	global_manpower_modifier = -0.3
 }
 
 cancelled_loan = {
@@ -705,7 +705,7 @@ war_exhaustion = {
 	global_unrest = 1
 	global_regiment_recruit_speed = 0.02
 	global_ship_recruit_speed = 0.02
-	core_creation = 0.03
+	yearly_corruption = 0.04
 	temples_influence = -0.05
 	mr_aristocrats_influence = -0.05
 	rr_girondists_influence = -0.05
@@ -951,10 +951,9 @@ recovery_motivation = {
 }
 
 militarized_society = {
-
 	manpower_recovery_speed = 0.20
 	land_maintenance_modifier = -0.20
-
+	land_forcelimit = 0.20
 }
 
 
@@ -1224,7 +1223,7 @@ union_subject = {
 }
 
 all_nations = {
-	global_tax_income = 12
+	global_tax_income = 24
 	land_forcelimit	= 6
 	naval_forcelimit = 12
 }
