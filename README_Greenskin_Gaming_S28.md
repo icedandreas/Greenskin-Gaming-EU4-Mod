@@ -92,6 +92,8 @@ Ai choses better advisors. Bad mil advisors are also slightly buffed.
 
 Ai is better at using edicts.
 
+Ai is more likely to utilize condis.
+
 Naples and Sweden are independant at game start.
 
 Gave Scandinavia a national ideaset and let them be formed at amd 10.
@@ -129,6 +131,8 @@ Added the new National idea sets for the asian nations of 1.31 (didn't bother ad
 Players in the HRE are electors.
 
 Expanded the HRE to also include Italy.
+
+Double AI gain penalty for outside forces holding HRE provincs.
 
 Removed pirates
 
@@ -173,3 +177,7 @@ Costs no prestige to abandon union.
 Forts can no longer be placed next to another fort, with the exception of the capital.
 
 Monarch minimum skill from natural occurence increased to 1 from 0 to reduce ruler RNG.
+
+Wargoal can now give up to 40% warscore and ticks at 0.6 a month.
+
+Implemented the elector buffs from Hashmod and also gave some buffs to the HRE reforms. Big shoutout to Foffy :)

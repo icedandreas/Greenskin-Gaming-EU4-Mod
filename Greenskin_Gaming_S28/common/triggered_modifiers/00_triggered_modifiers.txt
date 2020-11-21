@@ -820,17 +820,6 @@ defense_of_the_empire_modifier = {
 
 
 ######################################
-# Less ae for HRE members
-######################################
-
-defense_of_the_empire_modifier = {
-	trigger = {
-		is_part_of_hre = yes
-	}
-	ae_impact = -0.10
-}
-
-######################################
 # CN player nerfs
 ######################################
 
@@ -848,4 +837,88 @@ player_cn = {
 	manpower_recovery_speed = -0.25
 	sailors_recovery_speed = -0.25
 	mercenary_manpower = -1
+}
+
+###########################################
+# HRE Rework - From Hashmod
+###########################################
+
+t_hre_elector_1 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		NOT = {
+			hre_reform_passed = emperor_reichsstabilitaet
+		}
+	}
+	ae_impact = -0.1
+	manpower_recovery_speed = 0.05
+	land_morale = 0.05
+	advisor_cost = -0.05
+	global_manpower = 5
+	global_tax_income = 8
+}
+
+t_hre_elector_2 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		hre_reform_passed = emperor_reichsstabilitaet
+		NOT = {
+			hre_reform_passed = emperor_perpetual_diet
+		}
+	}
+	ae_impact = -0.15
+	manpower_recovery_speed = 0.1
+	land_morale = 0.05
+	advisor_cost = -0.1
+	global_manpower = 10
+	global_tax_income = 12
+}
+
+t_hre_elector_3 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		hre_reform_passed = emperor_perpetual_diet
+	}
+	ae_impact = -0.2
+	manpower_recovery_speed = 0.15
+	land_morale = 0.05
+	advisor_cost = -0.15
+	global_manpower = 15
+	global_tax_income = 16
+}
+
+t_hre_strongemperor = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		emperor = {
+			is_part_of_hre = yes
+			OR = {
+				total_development = 300
+				AND = {
+					tag = HAB
+					total_development = 150
+				}
+			}
+		}
+	}
+	imperial_authority = 0.1
+	imperial_authority_value = 0.03
 }

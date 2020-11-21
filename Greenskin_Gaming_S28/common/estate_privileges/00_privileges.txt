@@ -824,7 +824,7 @@ estate_nobles_nobility_primacy = {
 		country_military_power = 1
 	}
 	ai_will_do = {
-		factor = 12
+		factor = 1000
 		modifier = {
 			factor = 0
 			OR = {
@@ -900,7 +900,7 @@ estate_nobles_levies = {
 	penalties = {
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 1.5
 			any_rival_country = {
@@ -1103,7 +1103,7 @@ estate_church_religious_state = {
 		country_admin_power = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 250
 		modifier = {
 			factor = 0
 			OR = {
@@ -1418,7 +1418,7 @@ estate_church_inwards_perfection = {
 		development_cost = -0.05
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 10
 		modifier = {
 			factor = 7.5
 			tag = KOR
@@ -1503,7 +1503,7 @@ estate_burghers_land_of_commerce = {
 		country_diplomatic_power = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 100
 		modifier = {
 			factor = 0
 			OR = {
@@ -1712,14 +1712,7 @@ estate_cossacks_exploration_expedition = {
 		land_forcelimit_modifier = 0.3
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 10
-			OR = {
-				tag = MOS
-				tag = RUS
-			}
-		}
+		factor = 100
 		modifier = {
 			factor = 0
 			OR = {
@@ -1778,7 +1771,7 @@ estate_cossacks_establish_the_cossack_regiments = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 10
+			factor = 25
 			any_owned_province = {
 				has_terrain = steppe
 			}
@@ -1889,7 +1882,7 @@ estate_dhimmi_lighter_dhimmi_taxes = {
 	benefits = {
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 25
 	}
 }
 
@@ -1964,7 +1957,7 @@ estate_dhimmi_manpower = {
 	benefits = {
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 25
 	}
 }
 
@@ -2136,7 +2129,7 @@ estate_nomadic_tribes_tribal_host = {
 		global_manpower_modifier = 0.2
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 25
 		modifier = {
 			factor = 0.5
 			is_absolutism_active = yes
@@ -2162,7 +2155,7 @@ estate_brahmins_brahmin_governance = {
 		country_admin_power = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 250
 		modifier = {
 			factor = 0
 			OR = {
@@ -2407,7 +2400,7 @@ estate_jains_diplomacy = {
 		country_diplomatic_power = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 250
 		modifier = {
 			factor = 0
 			OR = {
@@ -2461,7 +2454,7 @@ estate_jains_clerical_class = {
 		development_cost = -0.05
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 10
 	}
 }
 
@@ -2549,7 +2542,7 @@ estate_maratha_military = {
 		country_military_power = 1
 	}
 	ai_will_do = {
-		factor = 12
+		factor = 1000
 		modifier = {
 			factor = 0
 			OR = {
@@ -2650,7 +2643,7 @@ estate_maratha_levies = {
 	penalties = {
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 1.5
 			any_rival_country = {
@@ -2797,11 +2790,7 @@ estate_maratha_special_privilege = {
 	benefits = {
 	}
 	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			is_absolutism_active = yes
-		}
+		factor = 100
 	}
 }
 
@@ -2851,7 +2840,7 @@ estate_rajput_military = {
 		country_military_power = 1
 	}
 	ai_will_do = {
-		factor = 12
+		factor = 1000
 		modifier = {
 			factor = 0
 			OR = {
@@ -2954,7 +2943,7 @@ estate_rajput_officer_corp = {
 		leader_land_fire = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 25
 		modifier = {
 			factor = 0
 			NOT = { has_estate_privilege = estate_rajput_officer_corp }
@@ -3171,7 +3160,7 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 		land_morale = 0.1
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 100
 		modifier = {
 			factor = 10
 			OR = {
@@ -5692,7 +5681,7 @@ estate_cossacks_recruit_cossack_generals = {
 		leader_land_shock = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 100
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes
@@ -5928,7 +5917,7 @@ estate_nobles_golden_liberty = {
 		exempt_from_seize_land
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 100
 	}
 }
 
