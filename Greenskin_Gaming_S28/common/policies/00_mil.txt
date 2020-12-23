@@ -38,7 +38,7 @@ thicker_shields = {
 	}
 }
 
-fresh_meat = {
+7_nation_army = {
 	monarch_power = MIL
 	
 	potential = {
@@ -67,20 +67,24 @@ fresh_meat = {
 		}
 	}
 	
-	reinforce_speed = 0.15
+	vassal_forcelimit_bonus = 1.5
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.01
 		modifier = {
-			factor = 1.5
-			is_at_war = yes
+			factor = 100
+			vassal = 1
+		}
+		modifier = {
+			factor = 100
+			vassal = 2
 		}
 	}
 }
 
-forced_conscription = {
+noble_captains = {
 	monarch_power = MIL
-	
+
 	potential = {
 		adm_tech = 5
 	}
@@ -105,10 +109,11 @@ forced_conscription = {
 		full_idea_group = influence_ideas
 		amount = 1
 		}
+		
 	}
 	
-	global_manpower_modifier = 0.2
-
+	land_morale = 0.05
+	
 	ai_will_do = {
 		factor = 2
 		modifier = {
@@ -159,7 +164,7 @@ longer_lances = {
 	}
 }
 
-7_nation_army = {
+forced_conscription = {
 	monarch_power = MIL
 	
 	potential = {
@@ -188,21 +193,17 @@ longer_lances = {
 		}
 	}
 	
-	vassal_forcelimit_bonus = 1.5
+	global_manpower_modifier = 0.2
 
 	ai_will_do = {
-		factor = 0.01
+		factor = 2
 		modifier = {
-			factor = 100
-			vassal = 1
-		}
-		modifier = {
-			factor = 100
-			vassal = 2
+			factor = 1.5
+			is_at_war = yes
 		}
 	}
 }
-
+	
 maternal_leave_act = {
 	monarch_power = MIL
 	
@@ -603,86 +604,6 @@ vigilant_act = {
 	}
 }
 
-longer_barrels = {
-	monarch_power = MIL
-	
-	potential = {
-		adm_tech = 22
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 6
-		}
-	}
-	
-	artillery_power = 0.1
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-military_engineering = {
-	monarch_power = MIL
-	
-	potential = {
-		adm_tech = 22
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 6
-		}
-	}
-	
-	siege_ability = 0.15
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
 grandest_army = {
 	monarch_power = MIL
 	
@@ -723,11 +644,11 @@ grandest_army = {
 	}
 }
 
-artillery_academy_act = {
+longer_barrels = {
 	monarch_power = MIL
 	
 	potential = {
-		adm_tech = 26
+		adm_tech = 22
 	}
 	
 	allow = {
@@ -748,51 +669,11 @@ artillery_academy_act = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 7
+		amount = 6
 		}
 	}
 	
-	leader_siege = 1
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-deeper_cover = {
-	monarch_power = MIL
-	
-	potential = {
-		adm_tech = 26
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 7
-		}
-	}
-	
-	fire_damage_received = -0.1
+	artillery_power = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -843,7 +724,47 @@ recruitment_officers = {
 	}
 }
 
-horse_logistics = {
+deeper_cover = {
+	monarch_power = MIL
+	
+	potential = {
+		adm_tech = 26
+	}
+	
+	allow = {
+		calc_true_if = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = spy_ideas
+		full_idea_group = influence_ideas
+		amount = 7
+		}
+	}
+	
+	fire_damage_received = -0.1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+guns_akimbo = {
 	monarch_power = MIL
 	
 	potential = {
@@ -872,7 +793,7 @@ horse_logistics = {
 		}
 	}
 	
-	movement_speed = 0.15
+	fire_damage = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -913,46 +834,6 @@ double_rations = {
 	}
 	
 	land_attrition = -0.15
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-guns_akimbo = {
-	monarch_power = MIL
-	
-	potential = {
-		adm_tech = 29
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 8
-		}
-	}
-	
-	fire_damage = 0.15
 
 	ai_will_do = {
 		factor = 1

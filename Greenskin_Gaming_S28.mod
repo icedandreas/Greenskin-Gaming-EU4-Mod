@@ -1,8 +1,8 @@
-version="0.1"
+version="0.3"
 tags={
 	"Balance"
 }
 picture="thumbnail.png"
-name="Greenskin_Gaming_S28"
+name="Greenskin Gaming S28"
 supported_version="1.30.4"
-path="mod/Greenskin_Gaming_S28"
+path="C:/Users/Amy/Documents/Paradox Interactive/Europa Universalis IV/mod/Greenskin_Gaming_S28"

@@ -127,7 +127,7 @@ cultural_enrichment = {
 	}
 }
 
-heretic_tolerance = {
+fabricate_glory = {
 	monarch_power = ADM
 
 	potential = {
@@ -155,15 +155,11 @@ heretic_tolerance = {
 		amount = 2
 		}
 	}
-	
-	tolerance_heretic = 2
-	
+
+	prestige = 1
+
 	ai_will_do = {
 		factor = 0.8
-		modifier = {
-			factor = 0
-			NOT = { religious_unity = 65 }
-		}
 	}
 }
 
@@ -203,11 +199,11 @@ stability_act = {
 	}
 }
 
-imperial_growth = {
+forced_unity = {
 	monarch_power = ADM
 
 	potential = {
-		adm_tech = 29
+		adm_tech = 7
 	}
 	
 	allow = {
@@ -228,7 +224,47 @@ imperial_growth = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 8
+		amount = 2
+		}
+	}
+
+	global_missionary_strength = 0.01
+
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { religious_unity = 65 }
+		}
+	}
+}
+
+imperial_growth = {
+	monarch_power = ADM
+
+	potential = {
+		adm_tech = 10
+	}
+	
+	allow = {
+		calc_true_if = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = spy_ideas
+		full_idea_group = influence_ideas
+		amount = 3
 		}
 	}
 
@@ -240,78 +276,6 @@ imperial_growth = {
 			factor = 0
 			is_emperor = no
 		}
-	}
-}
-
-the_loan_act = {
-	monarch_power = ADM
-
-	potential = {
-		adm_tech = 10
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 3
-		}
-	}
-
-	interest = -0.5
-	
-	ai_will_do = {
-		factor = 0.8
-	}
-}
-
-tower_of_babylon = {
-	monarch_power = ADM
-
-	potential = {
-		adm_tech = 10
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 3
-		}
-	}
-
-	build_cost = -0.1
-
-	ai_will_do = {
-		factor = 0.8
 	}
 }
 
@@ -350,9 +314,45 @@ discounted_advisors = {
 	}
 }
 
-
-purge_the_heretics = {
+bulk_discount = {
 	monarch_power = ADM
+
+	potential = {
+		adm_tech = 10
+	}
+	
+	allow = {
+		calc_true_if = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = spy_ideas
+		full_idea_group = influence_ideas
+		amount = 3
+		}
+	}
+
+	core_creation = -0.15
+	
+	ai_will_do = {
+		factor = 0.8
+	}
+}
+
+heretic_tolerance = {
+	monarch_power = ADM
+	
 	potential = {
 		adm_tech = 14
 	}
@@ -379,7 +379,7 @@ purge_the_heretics = {
 		}
 	}
 	
-	global_heretic_missionary_strength = 0.03
+	tolerance_heretic = 2
 	
 	ai_will_do = {
 		factor = 0.8
@@ -459,7 +459,7 @@ unity_of_religion = {
 		}
 	}
 
-	religious_unity = 0.25
+	religious_unity = 0.20
 	
 	ai_will_do = {
 		factor = 0.8
@@ -507,7 +507,7 @@ cling_to_glory = {
 	}
 }
 
-fabricate_glory = {
+capacity_for_greatness = {
 	monarch_power = ADM
 
 	potential = {
@@ -536,14 +536,14 @@ fabricate_glory = {
 		}
 	}
 
-	prestige = 1
+	governing_capacity_modifier = 0.2
 
 	ai_will_do = {
 		factor = 0.8
 	}
 }
 
-bulk_discount = {
+the_loan_act = {
 	monarch_power = ADM
 
 	potential = {
@@ -572,86 +572,10 @@ bulk_discount = {
 		}
 	}
 
-	core_creation = -0.15
+	interest = -0.5
 	
 	ai_will_do = {
 		factor = 0.8
-	}
-}
-
-expanded_court = {
-	monarch_power = ADM
-
-	potential = {
-		adm_tech = 22
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 6
-		}
-	}
-
-	advisor_pool = 1
-
-	ai_will_do = {
-		factor = 0.8
-	}
-}
-
-absolute_absolutism = {
-	monarch_power = ADM
-
-	potential = {
-		adm_tech = 22
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 6
-		}
-	}
-
-	yearly_absolutism = 1
-	
-	ai_will_do = {
-		factor = 0.8
-		modifier = {
-			factor = 0
-			absolutism = 99
-		}
 	}
 }
 
@@ -691,11 +615,11 @@ absolute_absolutism = {
 	}
 }
 
-forced_unity = {
+absolute_absolutism = {
 	monarch_power = ADM
 
 	potential = {
-		adm_tech = 26
+		adm_tech = 22
 	}
 	
 	allow = {
@@ -716,17 +640,17 @@ forced_unity = {
 		full_idea_group = administrative_ideas
 		full_idea_group = spy_ideas
 		full_idea_group = influence_ideas
-		amount = 7
+		amount = 6
 		}
 	}
 
-	global_missionary_strength = 0.02
-
+	yearly_absolutism = 1
+	
 	ai_will_do = {
 		factor = 0.8
 		modifier = {
 			factor = 0
-			NOT = { religious_unity = 65 }
+			absolutism = 99
 		}
 	}
 }
@@ -811,41 +735,6 @@ the_mint_act = {
 	}
 }
 
-capacity_for_greatness = {
-	monarch_power = ADM
-
-	potential = {
-		adm_tech = 7
-	}
-	
-	allow = {
-		calc_true_if = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = plutocracy_ideas
-		full_idea_group = innovativeness_ideas
-		full_idea_group = religious_ideas
-		full_idea_group = offensive_ideas
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-		full_idea_group = maritime_ideas
-		full_idea_group = administrative_ideas
-		full_idea_group = spy_ideas
-		full_idea_group = influence_ideas
-		amount = 2
-		}
-	}
-
-	governing_capacity_modifier = 0.2
-
-	ai_will_do = {
-		factor = 0.8
-	}
-}
 
 effective_administration = {
 	monarch_power = ADM
