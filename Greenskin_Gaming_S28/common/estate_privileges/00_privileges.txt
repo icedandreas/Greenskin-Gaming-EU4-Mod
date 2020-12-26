@@ -1712,7 +1712,7 @@ estate_cossacks_exploration_expedition = {
 		land_forcelimit_modifier = 0.3
 	}
 	ai_will_do = {
-		factor = 100
+		factor = 50
 		modifier = {
 			factor = 0
 			OR = {
@@ -2943,15 +2943,10 @@ estate_rajput_officer_corp = {
 		leader_land_fire = 1
 	}
 	ai_will_do = {
-		factor = 25
+		factor = 1000
 		modifier = {
 			factor = 0
 			NOT = { has_estate_privilege = estate_rajput_officer_corp }
-			NOT = { army_tradition = 75 }
-		}
-		modifier = {
-			factor = 0
-			is_absolutism_active = yes
 		}
 	}
 }
@@ -5681,7 +5676,7 @@ estate_cossacks_recruit_cossack_generals = {
 		leader_land_shock = 1
 	}
 	ai_will_do = {
-		factor = 100
+		factor = 1000
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes

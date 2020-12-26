@@ -67,8 +67,24 @@ estate_nomadic_tribes = {
 
 	# Influence modifiers
 	base_influence = 25
+	influence_modifier = {
+		desc = EST_VAL_RELIGIOUS_MINORITY
+		trigger = {
+			was_player = no
+		}
+		influence = 5	
+	}
 
 	influence_from_dev_modifier = 0.4
+
+	# Loyalty modifiers
+	loyalty_modifier = {
+		desc = EST_VAL_HEATHEN_PEACE_LOYALTY
+		trigger = {
+			was_player = no
+		}
+		loyalty = 5
+	}
 
 	privileges = {
 		estate_nomadic_tribes_land_rights

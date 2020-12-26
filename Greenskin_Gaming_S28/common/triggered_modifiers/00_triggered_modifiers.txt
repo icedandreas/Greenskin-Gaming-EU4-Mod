@@ -844,7 +844,6 @@ player_cn = {
 t_hre_elector_1 = {
 	potential = {
 		is_part_of_hre = yes
-		was_player = yes
 	}
 	trigger = {
 		is_elector = yes
@@ -864,7 +863,6 @@ t_hre_elector_1 = {
 t_hre_elector_2 = {
 	potential = {
 		is_part_of_hre = yes
-		was_player = yes
 	}
 	trigger = {
 		is_elector = yes
@@ -885,7 +883,6 @@ t_hre_elector_2 = {
 t_hre_elector_3 = {
 	potential = {
 		is_part_of_hre = yes
-		was_player = yes
 	}
 	trigger = {
 		is_elector = yes
@@ -903,7 +900,6 @@ t_hre_elector_3 = {
 t_hre_strongemperor = {
 	potential = {
 		is_part_of_hre = yes
-		was_player = yes
 	}
 	trigger = {
 		emperor = {
@@ -919,4 +915,19 @@ t_hre_strongemperor = {
 	}
 	imperial_authority = 0.1
 	imperial_authority_value = 0.03
+}
+
+################
+# To compensate for ai not reducing maintenance in peace time.
+################
+
+ai_peace_maintenance = {
+	potential = {		
+		was_player = no
+	}
+	trigger = {
+		is_at_war = no
+	}
+	land_maintenance_modifier = -0.25
+	fort_maintenance_modifier = -0.50
 }

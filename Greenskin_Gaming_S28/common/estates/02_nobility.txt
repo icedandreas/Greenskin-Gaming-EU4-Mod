@@ -106,6 +106,13 @@ estate_nobles =
 		influence = 10
 	}
 	influence_modifier = {
+		desc = EST_HUN_MAGNATES
+		trigger = {
+			was_player = no
+		}
+		influence = 5
+	}
+	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
 			OR = {
@@ -138,6 +145,13 @@ estate_nobles =
 			has_dlc = "Rights of Man"
 			has_consort = yes
 			is_origin_of_consort = ROOT
+		}
+		loyalty = 5
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_NOBLE_CONSORT
+		trigger = {
+			was_player = no
 		}
 		loyalty = 5
 	}

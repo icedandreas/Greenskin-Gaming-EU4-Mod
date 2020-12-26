@@ -95,6 +95,13 @@ estate_church =
 		influence = 10
 	}
 	influence_modifier = {
+		desc = EST_VAL_NEO_SUFISM
+		trigger = {
+			was_player = no
+		}	
+		influence = 5
+	}
+	influence_modifier = {
 		desc = EST_VAL_STATE_RELIGIOUS_MINORITY
 		trigger = {
 			NOT = { dominant_religion = ROOT }
@@ -134,6 +141,13 @@ estate_church =
 			has_country_flag = kni_clergy_flag
 		}
 		loyalty = 10
+	}
+	loyalty_modifier = {
+		desc = EST_KNI_CONQUEST_OF_JERUSALEM
+		trigger = {
+			was_player = no
+		}
+		loyalty = 5
 	}
 	loyalty_modifier = {
 		desc = EST_INWARD_PERFECTION_OFFENSIVE_WAR

@@ -92,7 +92,7 @@ Ai choses better advisors. Bad mil advisors are also slightly buffed.
 
 Ai is better at using edicts.
 
-Ai is more likely to utilize condis.
+Ai is more likely to utilize condis. Only bordering nations though.
 
 Naples and Sweden are independant at game start.
 
@@ -181,3 +181,7 @@ Monarch minimum skill from natural occurence increased to 1 from 0 to reduce rul
 Wargoal can now give up to 40% warscore and ticks at 0.6 a month.
 
 Implemented the elector buffs from Hashmod and also gave some buffs to the HRE reforms. Big shoutout to Foffy :)
+
+Can still declare war while in a regency.
+
+The value from razing doesn't decrease when military technology increases.

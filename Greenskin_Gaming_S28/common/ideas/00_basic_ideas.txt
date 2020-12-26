@@ -88,7 +88,13 @@ plutocracy_ideas = {
 
 	ai_will_do = {
 		factor = 4.5
+		modifier = {
+			factor = 7
+			tag = SWI
+		}
 	}
+
+
 }
 
 
@@ -126,7 +132,7 @@ innovativeness_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.35
+		factor = 0.30
 		modifier = {
 			factor = 1.1
 			num_of_cities = 20
@@ -176,7 +182,7 @@ religious_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.45
+		factor = 0.40
 	}
 }
 
@@ -218,7 +224,7 @@ spy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.45
+		factor = 0.40
 	}
 }
 
@@ -370,7 +376,7 @@ economic_ideas = {
  	}
 
 	ai_will_do = {
-		factor = 0.33
+		factor = 0.30
 		modifier = {
 			factor = 1.5
 			inflation = 5
@@ -716,7 +722,7 @@ quantity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 4.5
+		factor = 6
 	}
 }
 
@@ -754,7 +760,7 @@ expansion_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.30
+		factor = 0.25
 		modifier = {
 			factor = 10
 			has_idea_group = exploration_ideas
@@ -825,10 +831,14 @@ administrative_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.35
+		factor = 0.30
 		modifier = {
 			factor = 0.50
 			NOT = { num_of_cities = 50 }
+		}
+		modifier = {
+			factor = 5
+			tag = SWI
 		}
 	}
 }
@@ -865,18 +875,14 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.45
+		factor = 0.35
 		modifier = {
 			factor = 1.5
 			is_emperor = yes
 		}
 		modifier = {
 			factor = 1.7
-			vassal = 1
-		}
-		modifier = {
-			factor = 1.7
-			vassal = 2
+			vassal = 4
 		}
 	}
 }

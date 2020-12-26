@@ -34,7 +34,7 @@ christian = {
 		}
 		
 		hre_religion = yes
-		
+		declare_war_in_regency = yes
 		on_convert = {
 			change_religion = catholic
 			add_prestige = -100
@@ -333,7 +333,7 @@ christian = {
 		}
 		
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		
+		declare_war_in_regency = yes
 		aspects = {
 			divorce_consort_aspect
 			gain_consort_aspect
@@ -359,7 +359,7 @@ christian = {
 			shock_damage_received = -0.05
 			global_heretic_missionary_strength = 0.02
 		}
-		
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			shock_damage_received = -0.025
 		}
@@ -399,7 +399,7 @@ christian = {
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
-		
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			idea_cost = -0.1
 		}
@@ -535,7 +535,7 @@ christian = {
 			tolerance_heretic = 2
 			advisor_pool = 1
 		}
-		
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			global_unrest = -1
 			advisor_cost = -0.1
@@ -647,6 +647,7 @@ christian = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			global_colonial_growth = 10
 			tolerance_own = 1
@@ -785,6 +786,7 @@ christian = {
 			defensiveness = 0.1
 			tolerance_own = 1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			siege_ability = 0.1
 			defensiveness = 0.1
@@ -1119,6 +1121,7 @@ muslim = {
 			cavalry_cost = -0.05
 			heir_chance = 1.0
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			trade_efficiency = 0.1
 			heir_chance = 1.0
@@ -1139,6 +1142,7 @@ muslim = {
 			heir_chance = 1.0
 			land_morale = 0.05
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			land_morale = 0.05
 			advisor_cost = -0.1
@@ -1159,6 +1163,7 @@ muslim = {
 			heir_chance = 1.0
 			global_trade_goods_size_modifier = 0.1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			global_ship_cost = -0.1
 			advisor_cost = -0.1
@@ -1194,6 +1199,7 @@ eastern = {
 			tolerance_heretic = 2
 			advisor_cost = -0.1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			development_cost = -0.1
 			diplomats = 1
@@ -1225,6 +1231,7 @@ eastern = {
 			tolerance_heretic = 1
 			land_morale = 0.05
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			horde_unity = 1
 			tolerance_own = 1
@@ -1256,6 +1263,7 @@ eastern = {
 			tolerance_heretic = 2
 			idea_cost = -0.05
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			global_tax_modifier = 0.1
 			tolerance_heathen = 2
@@ -1283,6 +1291,7 @@ eastern = {
 			tolerance_heretic = 2
 			adm_tech_cost_modifier = -0.1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
@@ -1297,6 +1306,7 @@ eastern = {
 		country = {
 			land_morale = 0.1
 		}
+		declare_war_in_regency = yes
 		province = {
 			local_missionary_strength = -0.02
 		}
@@ -1332,6 +1342,7 @@ dharmic = {
 			tolerance_own = 1
 			brahmins_hindu_influence_modifier = 0.2
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			tolerance_heretic = 1
 			tolerance_heathen = 2
@@ -1364,6 +1375,7 @@ dharmic = {
 			mil_tech_cost_modifier = -0.1
 			land_morale = 0.1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			land_morale = 0.05
 			global_unrest = -1
@@ -1405,6 +1417,7 @@ pagan = {
 			tolerance_own = 1
 			global_unrest = -1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			tolerance_own = 2
 			loot_amount = 0.25
@@ -1422,6 +1435,7 @@ pagan = {
 			tolerance_heathen = 2
 			diplomatic_reputation = 1
 		}
+		declare_war_in_regency = yes
 		province = {
 			local_missionary_strength = 0.02
 		}
@@ -1440,6 +1454,7 @@ pagan = {
 			tolerance_own = 1
 			global_unrest = -1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			tolerance_own = 2
 			loot_amount = 0.25
@@ -1458,6 +1473,7 @@ pagan = {
 			tolerance_own = 1
 			global_autonomy = -0.05
 		}
+		declare_war_in_regency = yes
 
 		country_as_secondary = {
 			tolerance_own = 1
@@ -1507,6 +1523,7 @@ pagan = {
 			tolerance_own = 1
 			advisor_pool = 1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			advisor_pool = 1
 			stability_cost_modifier = -0.1
@@ -1528,6 +1545,7 @@ pagan = {
 			land_forcelimit_modifier = 0.10
 			naval_forcelimit_modifier = 0.10
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			merc_maintenance_modifier = -0.1
 			galley_power = 0.2
@@ -1548,6 +1566,7 @@ pagan = {
 			cavalry_cost = -0.125
 			global_regiment_cost = -0.2
 		}
+		declare_war_in_regency = yes
 		can_have_secondary_religion = yes
 		heretic = { OLD_TENGRI }
 	}
@@ -1569,6 +1588,7 @@ jewish_group = {
 			tolerance_own = 2
 			advisor_pool = 1
 		}
+		declare_war_in_regency = yes
 		country_as_secondary = {
 			advisor_pool = 1
 			advisor_cost = -0.1
@@ -1596,6 +1616,7 @@ zoroastrian_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		declare_war_in_regency = yes
 		country = {
 			tolerance_own = 2
 			trade_efficiency = 0.1

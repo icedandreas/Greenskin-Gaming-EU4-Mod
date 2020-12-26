@@ -62,6 +62,13 @@ estate_dhimmi = {
 		influence = 10		
 	}
 	influence_modifier = {
+		desc = EST_VAL_RELIGIOUS_MINORITY
+		trigger = {
+			was_player = no
+		}
+		influence = 5	
+	}
+	influence_modifier = {
 		desc = EST_VAL_RULED_BY_RELIGIOUS_MINORITY
 		trigger = {
 			NOT = { dominant_religion = ROOT }
@@ -114,6 +121,13 @@ estate_dhimmi = {
 			}
 		}
 		loyalty = 10
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_HEATHEN_PEACE_LOYALTY
+		trigger = {
+			was_player = no
+		}
+		loyalty = 5
 	}
 	
 	privileges = {
