@@ -875,13 +875,13 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.35
+		factor = 0.05
 		modifier = {
-			factor = 1.5
+			factor = 9
 			is_emperor = yes
 		}
 		modifier = {
-			factor = 1.7
+			factor = 10
 			vassal = 4
 		}
 	}

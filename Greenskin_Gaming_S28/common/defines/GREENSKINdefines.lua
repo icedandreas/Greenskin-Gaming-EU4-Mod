@@ -1,3 +1,5 @@
+NDefines.NGame.GREAT_POWER_FRENZY_START = "1444.11.11" --Test to see if it does anything.
+NDefines.NGame.GREAT_POWER_FRENZY_QUICKSTART = 1
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
 NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0.00
 NDefines.NDiplomacy.CELESTIAL_EMPIRE_MANDATE_PER_5_LOANS = -0.18
@@ -27,10 +29,12 @@ NDefines.NAI.MIN_INCOME_FOR_SUBSIDIES = 50
 
 NDefines.NAI.DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_ONLY_MILITARY_RULERS = 0
 NDefines.NAI.DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_ONLY_NEIGHBORS = 1
-NDefines.NAI.DIPLOMATIC_ACTION_ALLIANCE_POWERBALANCE_FACTOR = 65
-NDefines.NAI.DIPLOMATIC_ACTION_CRUSADE_POWERBALANCE_FACTOR = 80
+NDefines.NAI.DIPLOMATIC_ACTION_ALLIANCE_POWERBALANCE_FACTOR = 25
+NDefines.NAI.DIPLOMATIC_ACTION_CRUSADE_POWERBALANCE_FACTOR = 100
+NDefines.NAI.DIPLOMATIC_ACTION_EXCOMMUNICATE_POWERBALANCE_FACTOR = 80
+NDefines.NAI.DIPLOMATIC_ACTION_WARNING_WARN_FACTOR = 75
 NDefines.NAI.AGGRESSIVENESS = 10000
-NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 10000
+NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 100000
 NDefines.NAI.MIN_CAV_PERCENTAGE = 0
 NDefines.NAI.MAX_CAV_PERCENTAGE = 100
 NDefines.NAI.EXTRA_SURPLUS_WHEN_NEEDING_BUILDINGS = 0.15	--AI will aim for having at least this fraction of their income as additional surplus when they need buildings
@@ -43,22 +47,22 @@ NDefines.NAI.COLONY_BUDGET_FRACTION = 0.4
 --NDefines.NAI.FORT_BUDGET_FRACTION = 0.5 -- AI will spend a maximum of this fraction of monthly income on forts
 NDefines.NAI.EDICT_VALUE_THRESHOLD = 20
 NDefines.NAI.EDICT_VALUE_THRESHOLD_MULTIPLY_LOW_INCOME = 1.5	--Change to above threshold in case of low income
-NDefines.NAI.CALL_IN_ALLIES_POWER_RATIO = 2.5
+NDefines.NAI.CALL_IN_ALLIES_POWER_RATIO = 2
 NDefines.NAI.AI_WANT_ACCEPT_CULTURES = 300	--How much the AI values having much development in accepted cultures.
 NDefines.NAI.DEFICIT_SPENDING_MIN_MONTHS_PEACETIME = 50	--Same as DEFICIT_SPENDING_MIN_MONTHS, but during peacetime, no rebels and no war exhaustion
 
-NDefines.NAI.DIPLOMATIC_ACTION_GUARANTEE_POWERBALANCE_FACTOR = 25
+NDefines.NAI.DIPLOMATIC_ACTION_GUARANTEE_POWERBALANCE_FACTOR = 100
 NDefines.NAI.POWERFUL_ALLY_PENALTY = 60	--Penalty on alliance for them already having a powerful ally if much stronger.
 NDefines.NAI.DIPLOMATIC_ACTION_VASSALIZE_DEVELOPMENT_FACTOR	= 25	--AI scoring for vassalize is increased by this for each development in target's provinces.
 NDefines.NAI.DIPLOMATIC_INTEREST_DISTANCE = 125
 NDefines.NAI.DIPLOMATIC_ACTION_MILITARY_ACCESS_EXISTING_RELATION_MULT = 5.0	--AI scoring for military access is multiplied by this if it has an existing power cost relation.
 NDefines.NAI.DIPLOMATIC_ACTION_MILITARY_ACCESS_ENEMY_REGIMENTS_FACTOR = 25.0	--AI scoring for military access is increased by this for each enemy regiment they are sheltering.
-NDefines.NAI.OVER_FORCELIMIT_AVOIDANCE_FACTOR = 2 --The higher this number is the less willing the AI will be to exceed forcelimits.
+NDefines.NAI.OVER_FORCELIMIT_AVOIDANCE_FACTOR = 1.8 --The higher this number is the less willing the AI will be to exceed forcelimits.
 NDefines.NAI.CHARTER_COMPANY_BASE_RELUCTANCE = -5
 NDefines.NAI.CONQUEST_INTEREST_DISTANCE = 125
 
-NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_WAR_WITH_RIVAL_FACTOR = 15	--AI scoring for giving subsidies to a country that is at war with its rival.
-NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_POWERBALANCE_FACTOR = 15 --AI scoring to give subsidies to nations blocking/fighting power balance threat.
+NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_WAR_WITH_RIVAL_FACTOR = 40	--AI scoring for giving subsidies to a country that is at war with its rival.
+NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_POWERBALANCE_FACTOR = 25 --AI scoring to give subsidies to nations blocking/fighting power balance threat.
 NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_RELATIONS_MAX = 200 --Relations above this will not be considered for DIPLOMATIC_ACTION_SUBSIDIES_RELATIONS_FACTOR.
 NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_PREVIOUS_SUBSIDIES_FACTOR = -100 --AI scoring for giving subsidies based on previous subsidies nation is receiving relative to income.
 NDefines.NAI.DIPLOMATIC_ACTION_SUBSIDIES_RELATIVE_INCOME_FACTOR	= 25 --AI scoring for giving subsidies to a country based on its relative income to the AI nation (lower income = higher scoring).
@@ -74,7 +78,7 @@ NDefines.NAI.HOME_FLEET_MAX_RATIO = 0.3
 NDefines.NAI.MISSIONARY_MAINTENANCE_SHARE = 0.3
 --NDefines.NAI.ADVISOR_BUDGET_FRACTION = 0.3 -- AI will spend a maximum of this fraction of monthly income on advisor maintenance
 NDefines.NAI.ADVISOR_PROMOTION_AGE_CUTOFF = 45
-NDefines.NAI.ACCEPTABLE_BALANCE_DEFAULT = 1.6
+NDefines.NAI.ACCEPTABLE_BALANCE_DEFAULT = 1.55
 
 --Note that armies prefer the province with the lowest score. Also applies to homeland prioritization.
 NDefines.NAI.REGION_PLANNING_HOMELAND_PRIORIZATION = 10 --Homeland priorization when assigning armies to regions (only applied when actually threatened)
@@ -109,7 +113,7 @@ NDefines.NAI.PEACE_TERMS_GIVE_UP_CLAIM_PERMANENT = 0.1
 NDefines.NAI.PEACE_TERMS_RELEASE_ANNEXED_MAX_MULT =	0.5	--Max AI desire mult for releasing countries.
 NDefines.NAI.PEACE_TERMS_WAR_REPARATIONS_BASE_MULT = 0.5	--AI desire for war reparations through peace.
 NDefines.NAI.PEACE_TERMS_WAR_REPARATIONS_MIN_INCOME_RATIO = 1 -- AI only wants war reparations if other country has at least this % of their income
-NDefines.NAI.PEACE_TERMS_PROVINCE_NO_INTEREST_MULT = 0.9  --AI desire for a province is multiplied by this if it is not on their conquest list.
+NDefines.NAI.PEACE_TERMS_PROVINCE_NO_INTEREST_MULT = 0.1  --AI desire for a province is multiplied by this if it is not on their conquest list.
 NDefines.NAI.PEACE_TERMS_PROVINCE_CORE_MULT = 10.0 -- AI desire for a province is multiplied by this if it has a core on it
 NDefines.NAI.PEACE_TERMS_RELEASE_ANNEXED_HRE_MULT = 3.0 -- AI desire for releasing a country is multiplied by this if both are HRE members
 NDefines.NAI.PEACE_TERMS_CHANGE_GOVERNMENT_BASE_MULT = 100.0 -- only applied if CB is valid for it
@@ -118,6 +122,8 @@ NDefines.NAI.PEACE_TERMS_PROVINCE_CLAIM_MULT = 5.0
 NDefines.NAI.PEACE_TERMS_PROVINCE_NO_INTEREST_MULT = 0.5
 NDefines.NAI.PEACE_TERMS_RETURN_CORES_NOT_FRIEND_MULT = 0.1
 NDefines.NAI.PEACE_TERMS_RELEASE_VASSAL_MAX_MULT = 0.5
+NDefines.NAI.DIPLOMATIC_ACTION_ALLIANCE_ACCEPTANCE_MULT = 2.5
+NDefines.NAI.DIPLOMATIC_ACTION_KNOWLEDGE_SHARING_ACCEPTANCE_MULT = 5.0
 
 NDefines.NAI.ESTATE_PRIVILEGE_REVOKE_THRESHOLD = 5.1
 NDefines.NAI.ESTATE_PRIVILEGE_GRANT_THRESHOLD = 7.5

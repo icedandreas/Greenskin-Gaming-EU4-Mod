@@ -4,7 +4,7 @@ province = {
             is_at_war = yes
         }
         eval_multiply = {
-			factor = 2
+			factor = 2.5
 			modifier = {
 				OR = {
 					NOT = { controlled_by = owner }
