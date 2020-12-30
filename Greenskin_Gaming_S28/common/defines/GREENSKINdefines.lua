@@ -1,5 +1,3 @@
-NDefines.NGame.GREAT_POWER_FRENZY_START = "1444.11.11" --Test to see if it does anything.
-NDefines.NGame.GREAT_POWER_FRENZY_QUICKSTART = 1
 NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
 NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0.00
 NDefines.NDiplomacy.CELESTIAL_EMPIRE_MANDATE_PER_5_LOANS = -0.18

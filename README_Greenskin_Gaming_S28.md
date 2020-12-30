@@ -44,7 +44,7 @@ reworked policies and how policies work.
 
 Changed Cossack estate that gave -15% dev cost for steppes, to instead give +scaling FL and -tax.
 
-Changed the eastern privilege "inward perfection" that gave -15% dev cost, to instead give scaled production effeciency.
+Changed the eastern privilege "inward perfection" that gave -15% dev cost, to instead give scaled production efficiency.
 
 Removed cavalry from mercs except for a single 0.33 ratio company.
 
@@ -114,6 +114,10 @@ Ewiger landfriede no longer makes it impossible to have internal HRE war.
 
 Added an event for CAS/SPA with mtth of 10 years. The event gives an option for a female heir.
 
+Castiles starting ruler has been improved.
+
+Morocco starts with more provinces.
+
 All government ranks can change focus every 10 years.
 
 Removed the Burgundian succession crisis modifier from Burgundy.
@@ -148,7 +152,7 @@ Removed all revolts from 1444 in addition to the unrest in Uzbek.
 
 Players cannot use the humiliate rival CB against other players.
 
-Player CN's get (-25% FL, -25% manpower recovery, -50% naval FL, +20% dev cost, -25% sailors recovery, -100% mercenary manpower)
+Player CN's get (-25% manpower recovery, -50% naval FL, +15% dev cost, -25% sailors recovery)
 
 Buffed the Hungarian black army mercs. Also added the +1 army tradition back to the event modifier.
 
@@ -177,8 +181,6 @@ Costs no prestige to abandon union.
 Forts can no longer be placed next to another fort, with the exception of the capital.
 
 Monarch minimum skill from natural occurence increased to 1 from 0 to reduce ruler RNG.
-
-Wargoal can now give up to 40% warscore and ticks at 0.6 a month.
 
 Implemented the elector buffs from Hashmod and also gave some buffs to the HRE reforms. Big shoutout to Foffy :)
 
