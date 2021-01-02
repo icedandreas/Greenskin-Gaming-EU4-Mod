@@ -50,7 +50,7 @@ marketplace = {
 	}
 	
 	ai_will_do = {
-		factor = 3.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 350 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
 		modifier = {
 			factor = 0
 			NOT = { province_has_center_of_trade_of_level = 1 }
@@ -152,7 +152,7 @@ workshop = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 7
+		factor = 700
 		modifier = {
 			factor = 0.5
 			NOT = { is_state = yes }
@@ -284,7 +284,7 @@ temple = {
 	}
 	
 	ai_will_do = {
-		factor = 7
+		factor = 600
 		modifier = {
 			factor = 0
 			NOT = { base_tax = 4 }
@@ -349,7 +349,7 @@ barracks = {
 	}
 	
 	ai_will_do = {
-		factor = 8
+		factor = 1000
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -452,10 +452,17 @@ shipyard = {
 	}
 
 	ai_will_do = {
-		factor = 0.3
+		factor = 30
 		modifier = {
 			factor = 1.2
 			NOT = { has_owner_accepted_culture = yes }
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				tag = ENG
+				tag = GBR
+			}
 		}
 		modifier = {
 			factor = 1.2
@@ -565,18 +572,18 @@ fort_15th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 25
 			is_capital = yes
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			island = yes
 			NOT = { is_capital = yes }
 		}	
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			is_overseas = yes
 		}
 		modifier = {
@@ -708,7 +715,7 @@ courthouse = {
 	}
 	
 	ai_will_do = {
-		factor = 0.5
+		factor = 50
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -909,10 +916,14 @@ regimental_camp = {
 	}
 	
 	ai_will_do = {
-		factor = 2
+		factor = 250
 		modifier = {
 			factor = 1.2
 			NOT = { development = 10 }
+		}
+		modifier = {
+			factor = 1.2
+			development = 20
 		}
 		modifier = {
 			factor = 1.2
@@ -925,7 +936,7 @@ regimental_camp = {
 		modifier = {
 			factor = 1.5
 			FROM = {
-				has_idea_group = offensive_ideas
+				has_idea_group = plutocracy_ideas
 			}
 		}
 		modifier = {
@@ -998,7 +1009,7 @@ fort_16th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 25
 			is_capital = yes
@@ -1148,7 +1159,7 @@ cathedral = {
 	}
 	
 	ai_will_do = {
-		factor = 7
+		factor = 600
 		modifier = {
 			factor = 0
 			NOT = { base_tax = 4 }
@@ -1241,17 +1252,6 @@ university = {
 			has_climate = arctic
 		}
 		modifier = {
-			factor = 1.2
-			OR = {
-				has_terrain = grasslands
-				has_terrain = drylands
-			}
-		}
-		modifier = {
-			factor = 1.2
-			has_terrain = farmlands
-		}
-		modifier = {
 			factor = 5
 			has_latent_trade_goods = coal
 		}
@@ -1323,7 +1323,7 @@ trade_depot = {
 	}
 	
 	ai_will_do = {
-		factor = 3.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 350 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
 		modifier = {
 			factor = 0
 			NOT = { province_has_center_of_trade_of_level = 1 }
@@ -1432,7 +1432,7 @@ grand_shipyard = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 30
 		modifier = {
 			factor = 1.2
 			NOT = { has_owner_accepted_culture = yes }
@@ -1441,6 +1441,13 @@ grand_shipyard = {
 			factor = 1.2
 			FROM = {
 				has_idea_group = trade_ideas
+			}
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				tag = ENG
+				tag = GBR
 			}
 		}
 		modifier = {
@@ -1530,7 +1537,7 @@ training_fields = {
 	}
 	
 	ai_will_do = {
-		factor = 8
+		factor = 1000
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -1651,18 +1658,18 @@ fort_17th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 25
 			is_capital = yes
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			island = yes
 			NOT = { is_capital = yes }
 		}	
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			is_overseas = yes
 		}
 		modifier = {
@@ -1752,7 +1759,7 @@ stock_exchange = {
 	}
 	
 	ai_will_do = {
-		factor = 3.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 350 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
 		modifier = {
 			factor = 0
 			NOT = { province_has_center_of_trade_of_level = 1 }
@@ -1861,7 +1868,7 @@ counting_house = {
 	allow_in_gold_provinces = no
 	
 	ai_will_do = {
-		factor = 7
+		factor = 700
 		modifier = {
 			factor = 0.5
 			NOT = { is_state = yes }
@@ -1998,7 +2005,7 @@ town_hall = {
 	}
 	
 	ai_will_do = {
-		factor = 0.1
+		factor = 10
 		modifier = {
 			factor = 0.25
 			NOT = { is_state = yes }
@@ -2199,7 +2206,7 @@ conscription_center = {
 	}
 	
 	ai_will_do = {
-		factor = 2
+		factor = 250
 		modifier = {
 			factor = 0.8
 			has_port = yes
@@ -2207,6 +2214,10 @@ conscription_center = {
 		modifier = {
 			factor = 1.2
 			NOT = { development = 10 }
+		}
+		modifier = {
+			factor = 1.2
+			development = 20
 		}
 		modifier = {
 			factor = 1.2
@@ -2293,18 +2304,18 @@ fort_18th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 25
 			is_capital = yes
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			island = yes
 			NOT = { is_capital = yes }
 		}	
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			is_overseas = yes
 		}
 		modifier = {
@@ -2412,7 +2423,7 @@ wharf = {
 	onmap = yes
 	
 	ai_will_do = {
-		factor = 3
+		factor = 300
 		modifier = {
 			factor = 0.75
 			NOT = { is_state = yes }
@@ -2480,7 +2491,7 @@ weapons = {
 	onmap = yes	
 	
 	ai_will_do = {
-		factor = 4
+		factor = 400
 		modifier = {
 			factor = 2
 			OR = {
@@ -2529,7 +2540,7 @@ textile = {
 	onmap = yes
 	
 	ai_will_do = {
-		factor = 4
+		factor = 400
 		modifier = {
 			factor = 0.8
 			NOT = { development = 3 }
@@ -2590,7 +2601,7 @@ plantations = {
 	onmap = yes
 	
 	ai_will_do = {
-		factor = 4
+		factor = 400
 		modifier = {
 			factor = 2
 			OR = {
@@ -2640,7 +2651,7 @@ tradecompany = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 4
+		factor = 400
 		modifier = {
 			factor = 0.75
 			trade_goods = incense
@@ -2768,7 +2779,7 @@ mills = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 4
+		factor = 400
 		modifier = {
 			factor = 0.8
 			NOT = { base_production = 3 }
@@ -2825,7 +2836,7 @@ furnace = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	
 	ai_will_do = {
-		factor = 100
+		factor = 10000
 		modifier = {
 			factor = 0.1
 			NOT = { is_state = yes }
@@ -2985,7 +2996,7 @@ soldier_households = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 		modifier = {
 			factor = 0
 			NOT = {

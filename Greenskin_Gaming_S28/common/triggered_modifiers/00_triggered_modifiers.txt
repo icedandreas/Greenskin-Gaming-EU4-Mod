@@ -918,7 +918,7 @@ t_hre_strongemperor = {
 }
 
 ################
-# To compensate for ai not reducing maintenance in peace time.
+# To compensate for ai not reducing maintenance in peace time. And peacetime attrition
 ################
 
 ai_peace_maintenance = {
@@ -930,4 +930,5 @@ ai_peace_maintenance = {
 	}
 	land_maintenance_modifier = -0.25
 	fort_maintenance_modifier = -0.50
+	land_attrition = -1
 }

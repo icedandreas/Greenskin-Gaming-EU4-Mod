@@ -1,12 +1,13 @@
 province = {
     war = {
         active = {
-            is_at_war = yes
+            is_at_war = no
         }
         eval_multiply = {
-            factor = 15
+            factor = 0.7
             modifier = {
-				has_province_modifier = arctic
+				has_siege = yes
+				owned_by = ROOT
             }
         }
     }

@@ -4,20 +4,16 @@ province = {
             is_at_war = yes
         }
         eval_multiply = {
-            factor = 5
+            factor = 2
             modifier = {
 				OR = {
                     AND = {
-                        NOT = {
-                            owned_by = ROOT
-                        }
+                        owned_by = ROOT
                         OR = {
                             has_province_modifier = arid
-                            has_province_modifier = tropical
+                            has_province_modifier = tropical                        
                         }
-                        
                     }
-					
 				}
             }
         }
