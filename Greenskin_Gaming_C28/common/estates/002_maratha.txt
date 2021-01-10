@@ -111,13 +111,6 @@ estate_maratha = {
 		influence = -5
 	}
 	influence_modifier = {
-		desc = EST_VAL_RULED_BY_NON_HINDU
-		trigger = {
-			was_player = no
-		}
-		influence = 5
-	}
-	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
 			OR = {
@@ -159,14 +152,6 @@ estate_maratha = {
 		}
 		loyalty = 5
 	}
-	loyalty_modifier = {
-		desc = EST_VAL_PROMOTED_MARATHI_CULTURE_LOY
-		trigger = {
-			was_player = no
-		}
-		loyalty = 5
-	}
-
 	privileges = {
 		estate_maratha_land_rights
 		estate_maratha_military

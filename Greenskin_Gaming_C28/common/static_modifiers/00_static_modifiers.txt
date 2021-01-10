@@ -558,8 +558,6 @@ ai_nation = {
 	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
 	advisor_pool = 1
 	sailors_recovery_speed = 0.25
-	idea_cost = -0.1
-	technology_cost = -0.1
 }
 
 
@@ -705,7 +703,7 @@ war_exhaustion = {
 	global_unrest = 1
 	global_regiment_recruit_speed = 0.02
 	global_ship_recruit_speed = 0.02
-	yearly_corruption = 0.04
+	core_creation = 0.03
 	temples_influence = -0.05
 	mr_aristocrats_influence = -0.05
 	rr_girondists_influence = -0.05

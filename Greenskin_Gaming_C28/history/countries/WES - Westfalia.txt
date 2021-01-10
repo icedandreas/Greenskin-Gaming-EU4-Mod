@@ -8,10 +8,11 @@ religion = catholic
 technology_group = western
 capital = 81	# Kassel
 
-1377.1.1 = {
+1400.1.1 = {
 	monarch = {
 		name = "Jérôme"
 		dynasty = "Bonaparte"
+		birth_date = 1400.7.31
 		culture = sardinian #Corsican
 		religion = catholic
 		adm = 2

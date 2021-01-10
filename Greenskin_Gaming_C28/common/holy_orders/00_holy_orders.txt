@@ -64,6 +64,10 @@ dominican_order = {
             factor = 2.0
             NOT = { culture = ROOT }
         }
+        modifier = {
+            factor = 0
+            was_player = yes
+        }
     }
 }
 
@@ -95,6 +99,10 @@ franciscan_order = {
             factor = 1.5
             devastation = 50
         }
+        modifier = {
+            factor = 0
+            was_player = yes
+        }
     }
 }
 
@@ -124,6 +132,10 @@ shadhili_order = {
             factor = 2.0
             NOT = { religion = ROOT }
         }
+        modifier = {
+            factor = 0
+            was_player = yes
+        }
     }
 }
 
@@ -152,6 +164,10 @@ qadiri_order = {
         modifier = {
             factor = 2.0
             NOT = { culture = ROOT }
+        }
+        modifier = {
+            factor = 0
+            was_player = yes
         }
     }
 }
@@ -185,6 +201,10 @@ aissawa_order = {
         modifier = {
             factor = 1.5
             devastation = 50
+        }
+        modifier = {
+            factor = 0
+            was_player = yes
         }
     }
 }

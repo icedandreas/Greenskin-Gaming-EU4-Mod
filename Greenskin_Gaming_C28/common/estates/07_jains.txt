@@ -93,13 +93,6 @@ estate_jains = {
 		}
 		influence = -40
 	}
-	influence_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER
-		trigger = {
-			was_player = no
-		}
-		influence = 5
-	}
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
@@ -112,13 +105,6 @@ estate_jains = {
 			}
 		}
 		loyalty = -20
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-		trigger = {
-			was_player = no
-		}
-		loyalty = 5
 	}
 
 	privileges = {

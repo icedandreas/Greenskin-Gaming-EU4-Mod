@@ -90,13 +90,6 @@ estate_cossacks = {
 		influence = 10
 	}
 	influence_modifier = {
-		desc = EST_STEPPE_PROVINCES
-		trigger = {
-			was_player = no
-		}
-		influence = 5
-	}
-	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
 			OR = {
@@ -126,13 +119,6 @@ estate_cossacks = {
 			}
 		}
 		loyalty = -20
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-		trigger = {
-			was_player = no
-		}
-		loyalty = 5
 	}
 
 	privileges = {

@@ -155,13 +155,6 @@ estate_burghers =
 		influence = 5
 	}
 	influence_modifier = {
-		desc = EST_VAL_EAST_AFRICAN_TRADE_CITIES
-		trigger = {
-			was_player = no
-		}
-		influence = 5
-	}
-	influence_modifier = {
 		desc = EST_VAL_LOW_TRADE_INCOME
 		trigger = {
 			NOT = { trade_income_percentage = 0.25 }
@@ -207,13 +200,6 @@ estate_burghers =
 			}
 		}
 		loyalty = -20
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-		trigger = {
-			was_player = no
-		}
-		loyalty = 5
 	}
 	#Custom Names
 	custom_name = {

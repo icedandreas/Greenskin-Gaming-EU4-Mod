@@ -80,8 +80,6 @@ Nomads estate now have the privilege for +1 mil power.
 
 Tweaked ai's decision making for ideas.
 
-Ai has -10% tech and idea cost to compensate for poor monarch power usage.
-
 Ai will now start having more cannons from mil tech 16 instead of from mil tech 11.
 
 Ai can now use between 0-100% cav in their armies. Changed from 5-50%
@@ -91,8 +89,6 @@ Ai improvements heavily inspired by "BetterAI" and "Difficulty and AI"
 Ai choses better advisors. Bad mil advisors are also slightly buffed.
 
 Ai is better at using edicts.
-
-Ai is more likely to utilize condis. Only bordering nations though.
 
 Naples and Sweden are independant at game start.
 
@@ -161,8 +157,6 @@ Splintered China and increased overall dev of the subcontinent.
 slightly buffed the upside of mandate and made it harder to tank (1/2 penalty from loans and being bankrupt, and no penalty from not holding the 3 important provinces and from devastation). Also reduced the penalty from losing the mandate.
 
 Added China as a formable with their own idea set.
-
-1 War exhaustion gives 0.04 corruption instead of 3% coring cost.
 
 Base tax income per month increased to 2 from 1.
 

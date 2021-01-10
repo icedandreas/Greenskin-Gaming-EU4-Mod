@@ -90,13 +90,6 @@ estate_brahmins = {
 		influence = 10
 	}
 	influence_modifier = {
-		desc = EST_VAL_HINDU_MAJORITY
-		trigger = {
-			was_player = no
-		}	
-		influence = 5
-	}
-	influence_modifier = {
 		desc = EST_VAL_HINDU_PROVINCES
 		trigger = {
 			any_owned_province = { religion = hinduism }
@@ -141,13 +134,6 @@ estate_brahmins = {
 			}
 		}
 		loyalty = -20
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-		trigger = {
-			was_player = no
-		}
-		loyalty = 5
 	}
 
 	

@@ -100,13 +100,6 @@ estate_vaisyas = {
 		influence = 5
 	}
 	influence_modifier = {	
-		desc = EST_HIGH_DEVELOPMENT_PROVINCE
-		trigger = {
-			was_player = no
-		}
-		influence = 5
-	}
-	influence_modifier = {	
 		desc = EST_VAL_COT
 		trigger = {
 			NOT = { has_reform = free_city }
@@ -164,13 +157,6 @@ estate_vaisyas = {
 			}
 		}
 		loyalty = -20
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-		trigger = {
-			was_player = no
-		}
-		loyalty = 5
 	}
 
 	privileges = {

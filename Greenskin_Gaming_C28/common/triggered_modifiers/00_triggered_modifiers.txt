@@ -916,19 +916,3 @@ t_hre_strongemperor = {
 	imperial_authority = 0.1
 	imperial_authority_value = 0.03
 }
-
-################
-# To compensate for ai not reducing maintenance in peace time. And peacetime attrition
-################
-
-ai_peace_maintenance = {
-	potential = {		
-		was_player = no
-	}
-	trigger = {
-		is_at_war = no
-	}
-	land_maintenance_modifier = -0.25
-	fort_maintenance_modifier = -0.50
-	land_attrition = -1
-}

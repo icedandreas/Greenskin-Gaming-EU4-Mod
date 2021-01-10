@@ -106,13 +106,6 @@ estate_rajput = {
 		influence = 10		
 	}
 	influence_modifier = {
-		desc = EST_VAL_PROMOTED_RAJASTHANI_CULTURE
-		trigger = {
-			was_player = no
-		}
-		influence = 5	
-	}
-	influence_modifier = {
 		desc = EST_VAL_RULED_BY_NON_HINDU
 		trigger = {
 			NOT = { religion = hinduism }
@@ -160,13 +153,6 @@ estate_rajput = {
 				accepted_culture = rajput
 				primary_culture = rajput
 			}
-		}
-		loyalty = 5
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_PROMOTED_RAJASTHANI_CULTURE_LOY
-		trigger = {
-			was_player = no
 		}
 		loyalty = 5
 	}
