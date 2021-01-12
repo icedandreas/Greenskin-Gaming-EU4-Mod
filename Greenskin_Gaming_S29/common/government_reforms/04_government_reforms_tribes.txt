@@ -183,6 +183,28 @@ civil_society_reform = {
 
 #Religion vs Secularization
 
+assimilate_fellow_tribesmen_reform = {
+	icon = "paper_with_seal_3"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = sahelian
+			culture_group = mande
+			culture_group = west_african
+			culture_group = kongo_group
+			culture_group = southern_african
+			culture_group = african
+			culture_group = great_lakes_group
+			culture_group = cushitic
+			culture_group = sudanese
+		}
+	}
+	modifiers = {
+		colonists = 1
+		range = -0.75
+	}
+}
+
 religious_societies_reform = {
 	icon = "tribal_religious_society"
 	allow_normal_conversion = yes

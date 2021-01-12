@@ -181,3 +181,19 @@ Implemented the elector buffs from Hashmod and also gave some buffs to the HRE r
 Can still declare war while in a regency.
 
 The value from razing doesn't decrease when military technology increases.
+
+#############################S29########################################
+
+Swap Oirat and Golden horde NI's and change Golden horde's formation requirements to "own the capital of: Crimea, Great horde, Kazan, Nogai, Uzbek.
+
+Forming Arabia now only requires arabian ideas.
+
+Make Alexandria flow to Tunis instead of Genoa, and make Tunis flow to Genoa.
+
+Make rev have equal chance to spawn in provinces not in Europe.
+
+Changed requirement for China formation to be the current capital of each of the current Chinese nations in addition to having the mandate.
+
+Added a T3 reform for African culture groups that ar either a monarchy or tribal, that gives 1 colonist but -75% colonial range.
+
+Changed the tradegood of Rund #4092 to gold.

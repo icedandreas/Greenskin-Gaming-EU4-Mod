@@ -36,9 +36,18 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 1816	# Beijing
-				province_id = 667	# Canton
-				province_id = 1821	# Nanjing
+				province_id = 661 #Dali
+				province_id = 664 #Lingyun
+				province_id = 667 #Canton
+				province_id = 675 #Umung
+				province_id = 682 #Wuchang
+				province_id = 684 #Hangzhou
+				province_id = 688 #Kaifeng
+				province_id = 689 #Hanzhong
+				province_id = 1816 #Beijing
+				province_id = 1829 #Quanzhou
+				province_id = 2171 #Xainyang
+				province_id = 2174 #Hengyang							
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -60,9 +69,18 @@ country_decisions = {
 				}
 				is_emperor_of_china = yes
 			}
-			owns_core_province = 1816	# Beijing
-			owns_core_province = 667	# Canton
-			owns_core_province = 1821	# Nanjing
+			owns_core_province = 661 #Dali
+			owns_core_province = 664 #Lingyun
+			owns_core_province = 667 #Canton
+			owns_core_province = 675 #Umung
+			owns_core_province = 682 #Wuchang
+			owns_core_province = 684 #Hangzhou
+			owns_core_province = 688 #Kaifeng
+			owns_core_province = 689 #Hanzhong
+			owns_core_province = 1816 #Beijing
+			owns_core_province = 1829 #Quanzhou
+			owns_core_province = 2171 #Xainyang
+			owns_core_province = 2174 #Hengyang
 		}
 		effect = {
 			change_tag = CHN

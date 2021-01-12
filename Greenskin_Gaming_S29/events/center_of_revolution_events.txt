@@ -32,10 +32,6 @@ province_event = {
 	mean_time_to_happen = {
 		years = 600
 		modifier = {
-			factor = 20
-			NOT = { continent = europe }
-		}
-		modifier = {
 			factor = 0.75
 			is_capital = yes
 		}
@@ -858,10 +854,6 @@ country_event = {
 	is_triggered_only = yes
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
 	}
 
 	immediate = {
@@ -1002,10 +994,6 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
 	}
 	is_triggered_only = yes
 	immediate = {
@@ -1073,10 +1061,6 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
 	}
 	is_triggered_only = yes
 	immediate = {
@@ -1180,10 +1164,6 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
 	}
 	is_triggered_only = yes
 	immediate = {
@@ -1232,7 +1212,6 @@ country_event = {
 						root = {
 							any_owned_province = {
 								development = 30
-								continent = europe
 								enlightenment = 100
 							}
 						}

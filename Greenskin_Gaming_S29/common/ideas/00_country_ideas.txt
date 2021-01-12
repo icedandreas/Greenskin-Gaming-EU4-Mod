@@ -3334,12 +3334,13 @@ BRI_ideas = {
 
 NAJ_ideas = {
 	start = {
-		global_missionary_strength = 0.02
+		administrative_efficiency = 0.05
 		movement_speed = 0.15
 	}
 	
 	bonus = {
 		missionaries = 1
+		global_missionary_strength = 0.01
 	}
 	
 	trigger = {
@@ -3354,7 +3355,7 @@ NAJ_ideas = {
 		army_tradition = 0.5
 	}
 	hanbali_school_ni = {
-		missionaries = 1
+		trade_efficiency = 0.1
 	}
 	ships_of_the_desert = {
 		global_trade_power = 0.20
@@ -3370,7 +3371,7 @@ NAJ_ideas = {
 	}
 	unite_the_tribes = {
 		land_maintenance_modifier = -0.1
-		land_morale = 0.15
+		land_morale = 0.20
 	}
 	enforce_tawhid = {
 		tolerance_own = 2
@@ -9218,7 +9219,7 @@ GLH_ideas = {
 		global_institution_spread = 0.1
 	}
 	trigger = {
-		tag = GLH
+		tag = OIR
 	}
 	free = yes
 	
@@ -14547,7 +14548,7 @@ OIR_ideas = {
 	
 	trigger = {
 		OR = {
-			tag = OIR
+			tag = GLH
 			tag = ZUN
 		}
 	}
