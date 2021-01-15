@@ -14661,47 +14661,6 @@ CHG_ideas = {
 	}
 }
 
-CSH_ideas = {
-	start = {
-		global_manpower_modifier = 0.25
-		production_efficiency = 0.10
-	}
-	
-	bonus = {
-		prestige = 1
-	}
-	
-	trigger = {
-		tag = CSH
-	}
-	free = yes
-	
-	shun_humble_beginnings = {
-		manpower_recovery_speed = 0.1
-	}
-	shun_dashing_king = {
-		diplomatic_reputation = 1
-	}
-	shun_hidden_treasury = {
-		interest = -0.5
-	}
-	shun_obedient_to_heaven = {
-		land_morale = 0.1
-		stability_cost_modifier = -0.1
-	}
-	shun_perfection_of_sieging = {
-		siege_ability = 0.10
-	}
-	shun_from_sticks_to_guns = {
-		infantry_power = 0.15
-	}
-	shun_claim_to_the_mandate = {
-		imperial_mandate = 0.03
-		meritocracy = 0.5
-		legitimacy = 0.5
-	}
-}
-
 NRM_ideas = {
 	start = {
 		leader_land_manuever = 1
@@ -15435,5 +15394,165 @@ CHN_ideas = {
     }
     chn_idea7 = {
         global_trade_goods_size_modifier = 0.1
+    }
+}
+
+LNG_ideas = {
+    start = {
+        build_cost = -0.05
+		leader_land_shock = 1
+    }
+   
+    bonus = {
+        prestige = 1
+    }
+   
+    free = yes        #will be added at load.
+   
+    trigger = {
+        tag = LNG
+    }
+    lng_idea1 = {
+        manpower_recovery_speed = 0.15
+    }
+    lng_idea2 = {
+        diplomatic_reputation = 1
+		diplomatic_upkeep = 1
+    }
+    lng_idea3 = {
+        global_tax_modifier = 0.2
+    }
+    lng_idea4 = {
+        land_morale = 0.1
+    }
+    lng_idea5 = {
+        siege_ability = 0.1
+    }
+    lng_idea6 = {
+        fire_damage_received = -0.1
+    }
+    lng_idea7 = {
+        legitimacy = 0.5
+		governing_capacity_modifier = 0.1
+    }
+}
+
+CSH_ideas = {
+	start = {
+		infantry_power = 0.1
+		core_creation = -0.05
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.1
+	}
+	
+	trigger = {
+		tag = CSH
+	}
+	free = yes
+	
+	shun_humble_beginnings = {
+		fort_maintenance_modifier = -0.2
+	}
+	shun_dashing_king = {
+		land_morale = 0.1
+		loot_amount = 0.25
+	}
+	shun_hidden_treasury = {
+		global_unrest = -1
+		war_exhaustion = -0.03
+	}
+	shun_obedient_to_heaven = {
+		state_maintenance_modifier = -0.2
+	}
+	shun_perfection_of_sieging = {
+		army_tradition = 1
+	}
+	shun_from_sticks_to_guns = {
+		production_efficiency = 0.15
+	}
+	shun_claim_to_the_mandate = {
+		governing_capacity_modifier = 0.1
+		administrative_efficiency = 0.05
+	}
+}
+
+WUU_ideas = {
+    start = {
+        infantry_power = 0.1
+		discipline = 0.025
+    }
+   
+    bonus = {
+        artillery_power = 0.1
+    }
+   
+    free = yes        #will be added at load.
+   
+    trigger = {
+        tag = WUU
+    }
+    wuu_idea1 = {
+        global_institution_spread = 0.33
+		embracement_cost = -0.2
+    }
+    wuu_idea2 = {
+        trade_efficiency = 0.1
+		global_trade_power = 0.1
+    }
+    wuu_idea3 = {
+        build_cost = -0.1
+    }
+    wuu_idea4 = {
+        land_attrition = -0.2
+		reinforce_cost_modifier = -0.1
+    }
+    wuu_idea5 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    wuu_idea6 = {
+        num_accepted_cultures = 2
+    }
+    wuu_idea7 = {
+        merchants = 1
+    }
+}
+
+YUE_ideas = {
+    start = {
+        global_manpower_modifier = 0.1
+		manpower_recovery_speed = 0.2
+    }
+   
+    bonus = {
+        land_forcelimit_modifier = 0.25
+    }
+   
+    free = yes        #will be added at load.
+   
+    trigger = {
+        tag = YUE
+    }
+    yue_idea1 = {
+        land_morale = 0.1
+    }
+    yue_idea2 = {
+        advisor_cost = -0.1
+    }
+    yue_idea3 = {
+        infantry_cost = -0.1
+    }
+    yue_idea4 = {
+        prestige = 1
+    }
+    yue_idea5 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    yue_idea6 = {
+        global_unrest = -1
+    }
+    yue_idea7 = {
+        fire_damage = 0.1
     }
 }

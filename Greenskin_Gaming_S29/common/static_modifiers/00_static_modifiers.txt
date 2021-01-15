@@ -951,7 +951,7 @@ recovery_motivation = {
 militarized_society = {
 	manpower_recovery_speed = 0.20
 	land_maintenance_modifier = -0.20
-	land_forcelimit = 0.20
+	land_forcelimit_modifier = 0.20
 }
 
 

@@ -186,7 +186,7 @@ The value from razing doesn't decrease when military technology increases.
 
 Swap Oirat and Golden horde NI's and change Golden horde's formation requirements to "own the capital of: Crimea, Great horde, Kazan, Nogai, Uzbek.
 
-Forming Arabia now only requires arabian ideas.
+Forming Arabia now only requires arabian provinces.
 
 Make Alexandria flow to Tunis instead of Genoa, and make Tunis flow to Genoa.
 
@@ -197,3 +197,9 @@ Changed requirement for China formation to be the current capital of each of the
 Added a T3 reform for African culture groups that ar either a monarchy or tribal, that gives 1 colonist but -75% colonial range.
 
 Changed the tradegood of Rund #4092 to gold.
+
+Added new NI's for Shun, Wu, Yue and Liang.
+
+SHZ and ODA starting provinces increased to 3 from 1.
+
+Reduced infilrate administration to only last 1 month.
